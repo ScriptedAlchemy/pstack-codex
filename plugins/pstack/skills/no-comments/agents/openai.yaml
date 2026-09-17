@@ -1,0 +1,5 @@
+interface:
+  display_name: "no-comments"
+  short_description: "Run this pstack workflow only when explicitly invoked."
+policy:
+  allow_implicit_invocation: false

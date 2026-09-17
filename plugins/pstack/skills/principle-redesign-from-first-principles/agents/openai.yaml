@@ -1,0 +1,5 @@
+interface:
+  display_name: "principle-redesign-from-first-principles"
+  short_description: "Run this pstack workflow only when explicitly invoked."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,45 @@
+{
+  "name": "pstack",
+  "version": "0.15.2+codex.20260917234148",
+  "description": "Rigorous engineering workflows for writing less, higher-quality code, ported from Lauren Tan's Cursor pstack plugin.",
+  "author": {
+    "name": "Lauren Tan",
+    "url": "https://github.com/cursor/plugins/tree/main/pstack"
+  },
+  "homepage": "https://github.com/ScriptedAlchemy/pstack-codex",
+  "repository": "https://github.com/ScriptedAlchemy/pstack-codex",
+  "license": "MIT",
+  "keywords": [
+    "pstack",
+    "poteto-mode",
+    "workflow",
+    "principles",
+    "agent-style",
+    "subagents",
+    "unslop",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "pstack",
+    "shortDescription": "Rigorous engineering workflows for Codex.",
+    "longDescription": "Lauren Tan's pstack engineering system, reimplemented for Codex with its workflows, playbooks, principles, subagent orchestration, verification helpers, and automation references.",
+    "developerName": "Lauren Tan",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Skills",
+      "Subagents",
+      "Workflows",
+      "Code Review"
+    ],
+    "websiteURL": "https://github.com/ScriptedAlchemy/pstack-codex",
+    "defaultPrompt": [
+      "Use poteto-mode for this engineering task.",
+      "Configure pstack's Codex model roles.",
+      "Review this change with pstack's agent panel."
+    ],
+    "brandColor": "#111111",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png"
+  }
+}

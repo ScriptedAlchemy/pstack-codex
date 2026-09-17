@@ -1,0 +1,5 @@
+interface:
+  display_name: "principle-subtract-before-you-add"
+  short_description: "Run this pstack workflow only when explicitly invoked."
+policy:
+  allow_implicit_invocation: false
