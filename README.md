@@ -38,6 +38,12 @@ Optional named custom agents are provided in `plugins/pstack/codex-agents`. Revi
 
 The portable validator checks the marketplace, manifest, all skill entry points, invocation policies, relative runtime links, agent TOML, and every file in the pinned upstream inventory. Run `python3 scripts/parity.py --report` for a per-file retained/adapted/replaced report. Runtime-dependent integrations still need an authenticated end-to-end test in the target host; structural checks do not prove external-service delivery.
 
+The [integration test report](INTEGRATION-TESTS.md) separates live host/service
+proof from fixture coverage. Run `bash scripts/test.sh` for the combined suite
+after installing the Bun helper dependencies below. The bot UI ships a tested
+loopback HTTP-to-Codex bridge, and Benny ships a tested durable polling ledger;
+neither starts automatically on installation.
+
 Helper-script tests require Bun:
 
 ```sh
@@ -49,6 +55,10 @@ node --test check-plan.test.mjs worktree-audit.test.mjs
 ```
 
 Before reinstalling a modified local plugin, use Codex's `plugin-creator` skill cachebuster/reinstall flow; then run `./scripts/install.sh` and start a new task. Keep the published version updated when shipping changes so existing installations do not reuse stale caches.
+
+Move test-only `node_modules` outside the plugin directory before installation;
+the installer refuses to package it. Keep your dependency copy for subsequent
+test runs rather than committing or distributing it.
 
 ## Track upstream safely
 

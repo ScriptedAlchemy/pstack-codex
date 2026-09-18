@@ -8,6 +8,8 @@ Configure a user-approved cadence, an initial `start_after_ts`, a bounded `max_r
 
 Use one exclusive lock per automation (for example an atomic directory creation). If another run holds it, finish without acting. A stale lock requires checking the owning run before recovery; never assume a timeout proves it is dead. Release owned locks on exit. Do not rely on the scheduler to serialize runs.
 
+Use the bundled [ledger helper](./scripts/ledger.mjs) for this local state protocol; see [its CLI instructions](./scripts/LEDGER.md). It implements exact string IDs, pending ledgers, atomic checkpoints, persisted pagination, an exclusive run lock, rejection-deadline gates, and prepared/verified/blocked external-action records. It does not call integrations or interpret reports. Each automation uses a separate state subdirectory and holds its owner token across the whole run, including tool calls. Invoke `prepare` before a permitted external mutation and `resolve` only after read-back; a surviving prepared record is a reconciliation requirement, never permission to retry. Check blocked records with `show`, since `pending` intentionally excludes them.
+
 The state records each `(source_channel_id, root_ts)` independently: stage, first-seen time, deadlines, tracker URL, verified verdict timestamp, operations coordinates, branch/PR URL, and last verified external action. Save state atomically after verified transitions. A timestamp cursor is only a pagination aid, not proof a report was completed. Keep pending reports even after advancing the discovery cursor. Re-read overlapping history and deduplicate coordinates to tolerate interrupted runs.
 
 ## Every scheduled run

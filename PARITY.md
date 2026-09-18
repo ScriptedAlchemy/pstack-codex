@@ -12,19 +12,21 @@ File coverage alone does not prove behavioral equivalence.
 | poteto-agent and Comment Sicko | Bundled persona instructions; optional custom-agent TOML | Named-agent registration is optional, not automatic plugin discovery |
 | Role-based models and panels | Host-validated model/effort preferences; inheritance fallback | Model availability and concurrent capacity depend on the host; panels run in waves |
 | Parallel workers | Explicit worktrees and bounded Codex subagents | No automatic cloud VM, branch isolation, or durable worker ID |
-| Sticky mode/reminders | Standing task instruction, re-read on follow-ups and saved in resume notes | No automatic activation across unrelated tasks |
+| Sticky mode/reminders | Standing task instruction; optional scoped `AGENTS.md` for cross-task persistence | Opt-in per repository, not a Cursor UI-mode switch; see [method](plugins/pstack/docs/standing-mode.md) |
 | Long-running goals and loops | Explicitly requested goals, supported heartbeat/project automations, durable ledgers | Requires scheduler availability; detached sleepers are not persistence |
 | PR watching, orchestration, decision logs | Retained executable helpers with Codex paths and safety fixes | Authenticated GitHub and target repository permissions are required |
 | Transcript recall/worktree audit | Workspace-matched Codex session metadata | Unrelated session content is not searched to infer ownership |
 | Browser/UI verification | Available Codex browser/computer-use skills and project harnesses | Requires the relevant tool on the execution host |
 | MCP evidence gathering | Discover and use connected apps/MCP tools | Upstream bundles no MCP server or lifecycle hook; none is fabricated |
-| Benny | Complete setup, triage, reproduction/fix pack plus scheduled-polling adapter | Polling latency differs from webhook delivery; stays paused until configured and tested |
-| make-bot-ui | Workflow for building UI against a supported endpoint or an explicitly requested local Codex bridge | Not a predeployed endpoint or unattended service |
+| Benny | Complete setup, triage, reproduction/fix pack plus scheduled-polling adapter and executable durable ledger | State/recovery mechanics tested; live Slack/tracker still requires connection and readiness test |
+| make-bot-ui | Workflow plus executable loopback UI/HTTP-to-Codex bridge | Live-tested fixed summarize/dry-run operations; adapt and review the fixed schema for other workflows; not a public webhook service |
 
 ## Verification scope
 
 Structural validation, source-file coverage, helper tests, shell checks, and
-installation checks are reproducible locally. Live Slack/tracker triage,
+installation checks are reproducible locally. See [integration test evidence](INTEGRATION-TESTS.md)
+for actual browser, HTTP-to-Codex, persona, GitHub and scheduler-configuration tests.
+Live Slack/tracker triage,
 unattended scheduler delivery, real PR merging, and UI verification depend on
 the user's target services and authorization. They are not enabled by installing
 this plugin, and are not claimed as tested by a package preflight. Benny's

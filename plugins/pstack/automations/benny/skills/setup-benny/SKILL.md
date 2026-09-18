@@ -157,7 +157,7 @@ Read `../../FOR_AGENTS.md` from the copied pack as the primary user-intent sourc
 
 ### First-time creation
 
-Codex local automations are scheduled, not Slack event webhooks. Preserve Benny's behavior with two project-scoped cron automations that poll the configured source channel for unseen top-level reports. Read `../../POLLING.md` and configure its durable ledger, locks, initial timestamp and batch size. A last-seen cursor alone cannot preserve pending reports. Create one automation at a time with the Codex automation tool after the user explicitly approves creation. Resolve the target project with the Codex project-listing tool first.
+Codex local automations are scheduled, not Slack event webhooks. Preserve Benny's behavior with two project-scoped cron automations that poll the configured source channel for unseen top-level reports. Read `../../POLLING.md` and configure its durable ledger, locks, initial timestamp and batch size. Read `../../scripts/LEDGER.md`, verify Node.js 22 or newer on the scheduled host, and run `node --test .codex/automations/benny/scripts/ledger.test.mjs` from the repository. These local tests do not replace live integration readiness. Use the bundled helper with separate durable triage/repro state directories; confirm the scheduled task can execute it. A last-seen cursor alone cannot preserve pending reports. Create one automation at a time with the Codex automation tool after the user explicitly approves creation. Resolve the target project with the Codex project-listing tool first.
 
 For each automation:
 

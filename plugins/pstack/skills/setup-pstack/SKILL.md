@@ -66,3 +66,7 @@ Locate this installed plugin's root. Copy `codex-agents/poteto-agent.toml` and `
 Report the chosen budget, overrides, config path, and installed agent files. Re-running this skill updates the same files.
 
 Optionally offer to create a project-local verification skill when the repository has no real-surface test harness.
+
+If the user wants poteto-mode to persist across tasks in this repository, use the
+optional [scoped AGENTS.md method](../../docs/standing-mode.md). Do not alter
+project instructions unless that persistence was requested.
