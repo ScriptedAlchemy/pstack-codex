@@ -6,6 +6,8 @@ Be scientific. Every shipped line traces to runtime evidence. Belt-and-suspender
 
 Before reproduction, read the report and its comments. Identify the affected repositories, base revisions, branch conventions, and unrelated working-tree edits. Preserve those edits and isolate the work when needed. Classify newly discovered work as required, a necessary dependency, or a follow-up. Research does not authorize additional implementation or publication.
 
+For Jira reports, follow [Jira intake with acli](../references/bug-evidence.md#jira-intake-with-acli) before extracting requirements. Include custom fields, comments, and relevant linked evidence.
+
 For a nontrivial bug, start the [bug evidence record](../references/bug-evidence.md). Record acceptance criteria and the affected paths before implementing. Give each distinct scenario and required verification layer its own row. Keep explicit exclusions and later scope decisions visible. A trivial fix can keep its failing and passing output directly in the task.
 
 1. Reproduce it yourself on the matching surface through the applicable Codex browser, computer-use, terminal, or project verification skill (Non-negotiables). Don't hand the repro to the user. A debug or instrumentation protocol that says to ask the user does not override this. You drive the instrumented runtime. Ask the user only with a stated, specific reason the real verification surface cannot reach the target, and only after driving it as far as it goes. Won't reproduce directly, force it: synthesize the trigger, tighten conditions, or instrument until it fires.
