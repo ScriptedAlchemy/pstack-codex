@@ -69,7 +69,7 @@ git worktree list --porcelain -z | while IFS= read -r -d '' record; do
 	if [ -d "$transcripts" ]; then
 		while IFS= read -r -d '' transcript; do
 			if head -n 1 "$transcript" | jq -e --arg wt "$wt" '.type == "session_meta" and .payload.cwd == $wt' >/dev/null 2>&1; then
-				stamp=$(stat -f '%m' "$transcript" 2>/dev/null || stat -c '%Y' "$transcript" 2>/dev/null)
+				stamp=$(stat -c '%Y' "$transcript" 2>/dev/null || stat -f '%m' "$transcript" 2>/dev/null)
 				if [ "$stamp" -gt "$last_ts" ] 2>/dev/null; then last_ts=$stamp; fi
 			fi
 		done < <(rg --files --hidden -0 -g '*.jsonl' "$transcripts" 2>/dev/null)

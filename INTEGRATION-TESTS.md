@@ -1,5 +1,8 @@
 # Integration verification
 
+Execution policy: run the test commands below inside Modal via the pstack runner. Host-only integration checks need a specific user-authorized exception; they do not run automatically.
+
+
 These results distinguish real host/service tests from local fixture coverage.
 They do not certify arbitrary production repositories or connected services.
 

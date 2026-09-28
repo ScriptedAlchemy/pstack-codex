@@ -32,27 +32,9 @@ Optional named custom agents are provided in `plugins/pstack/codex-agents`. Revi
 
 ## Verify and develop
 
-```sh
-./scripts/validate.sh
-```
+All builds and tests run on Modal, including dependency installs, lint, browser captures, and Storybook. Follow [Modal verification](plugins/pstack/docs/modal-verification.md) for the runner and complete pstack test command. No automatic local fallback is permitted. The local host edits source, transfers snapshots, and inspects returned evidence.
 
-The portable validator checks the marketplace, manifest, all skill entry points, invocation policies, relative runtime links, agent TOML, and every file in the pinned upstream inventory. Run `python3 scripts/parity.py --report` for a per-file retained/adapted/replaced report. Runtime-dependent integrations still need an authenticated end-to-end test in the target host; structural checks do not prove external-service delivery.
-
-The [integration test report](INTEGRATION-TESTS.md) separates live host/service
-proof from fixture coverage. Run `bash scripts/test.sh` for the combined suite
-after installing the Bun helper dependencies below. The bot UI ships a tested
-loopback HTTP-to-Codex bridge, and Benny ships a tested durable polling ledger;
-neither starts automatically on installation.
-
-Helper-script tests require Bun:
-
-```sh
-cd plugins/pstack/skills/poteto-mode/scripts
-bun install --frozen-lockfile
-bun test orch watch-pr
-bun run typecheck
-node --test check-plan.test.mjs worktree-audit.test.mjs
-```
+The portable validator checks the marketplace, manifest, skill entry points, policies, and upstream file inventory. The [integration test report](INTEGRATION-TESTS.md) distinguishes host/service proof from fixture coverage. Run `bash scripts/test.sh` inside Modal for package validation, Node tests, Bun orchestration tests, and type checks. Host-only checks require separate authorization and evidence.
 
 Before reinstalling a modified local plugin, use Codex's `plugin-creator` skill cachebuster/reinstall flow; then run `./scripts/install.sh` and start a new task. Keep the published version updated when shipping changes so existing installations do not reuse stale caches.
 

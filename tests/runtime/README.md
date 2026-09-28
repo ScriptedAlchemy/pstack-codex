@@ -1,5 +1,8 @@
 # Runtime equivalent tests
 
+Execution policy: run the test commands below inside Modal via the pstack runner. Host-only integration checks need a specific user-authorized exception; they do not run automatically.
+
+
 The fixtures are disposable local Git repositories. No test modifies the user's
 agent definitions, projects, automation schedules, or external services. Temporary
 fixture directories are retained for inspection. The worktree test removes only

@@ -13,6 +13,8 @@ The Principles section below grounds every trigger. In your reply, name each pri
 
 Remaining triggers:
 
+- Any build, test, reproduction, or capture → the [Modal execution contract](../../CODEX.md#build-and-test-execution), including delegated and MCP-triggered runs. No automatic local fallback.
+
 - Nontrivial change, architecture decision, or "are we sure?" → the **how** skill.
 - Before asking a "which approach", "how should I", or "what should this do" question, classify it. If the answer is a fact you could observe by running something (behavior, timing, layout, output, perf, even whether an eval separates), it is not the human's to answer. Sketch it via the Prototype playbook (`playbooks/prototype.md`) and let the result decide. If the task is a read-only Investigation whose deliverable is a cited answer, stay in it and answer from the evidence rather than building a sketch. Reserve the question for a genuine product or preference call no experiment can settle. Use the available user-input tool or one concise chat question.
 - Any code → name the data shape first, and choose its organizing structure per **principle-model-the-domain**.
@@ -86,6 +88,8 @@ Read the leaf skill in full for any principle you apply. Each entry names when i
 ## Subagents
 
 **Use the installed `poteto-agent` Codex custom agent for subagents inside a playbook step when selectable.** Otherwise spawn a default subagent and tell it to read `agents/poteto-agent.md` from this plugin before working. `$poteto-mode` and `poteto-agent` route through the same wrapper. Routed workflow skills (`how`, `why`, `interrogate`, `reflect`, `swarm`) choose their own agents for diverse-model review. Respect what the skill prescribes.
+
+Include the Modal-only execution contract and runner path in every implementation or verification delegation. Workers send verification commands to the lead for coordinated remote execution.
 
 **Defaults for every `spawn_agent` call.** Spawn in the background, pass file pointers instead of inlining large context, and set an explicit model and reasoning effort per role from `~/.codex/pstack-models.md`. Defaults are `gpt-5.6-luna @ medium` for code and `gpt-6-astra @ high` for prose and judgment. The hardest changes go to `gpt-6-astra @ xhigh`. Trivial mechanical edits go to the fast code role. A missing role keeps its default. `inherit-parent` or `auto` omits both overrides.
 

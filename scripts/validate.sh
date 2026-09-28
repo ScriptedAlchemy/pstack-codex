@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
+if [[ "${PSTACK_EXECUTOR:-}" != modal ]]; then
+  echo 'Run this check through plugins/pstack/scripts/modal-run.py; local execution is disabled.' >&2
+  exit 2
+fi
 repo_root=$(CDPATH='' cd -- "$(dirname -- "$0")/.." && pwd)
 validator_python=''
 for candidate in "${PSTACK_PYTHON:-python3}" python3.13 python3.12 python3.11; do

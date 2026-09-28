@@ -1,8 +1,13 @@
 #!/usr/bin/env bash
 set -euo pipefail
+if [[ "${PSTACK_EXECUTOR:-}" != modal ]]; then
+  echo 'Run this check through plugins/pstack/scripts/modal-run.py; local execution is disabled.' >&2
+  exit 2
+fi
 repo_root=$(CDPATH='' cd -- "$(dirname -- "$0")/.." && pwd)
 cd "$repo_root"
 "$repo_root/scripts/validate.sh"
+python3 tests/runtime/modal-run.test.py
 node --test \
   plugins/pstack/skills/poteto-mode/scripts/check-bug-evidence.test.mjs \
   plugins/pstack/skills/poteto-mode/scripts/check-plan.test.mjs \

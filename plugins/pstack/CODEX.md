@@ -16,6 +16,28 @@ by children. For a separately sandboxed review, use a fresh `codex exec
 --sandbox read-only` process and verify the actual permissions on that host.
 Read-only limits writes; it does not by itself prevent reading sensitive files.
 
+## Build and test execution
+
+Run all builds and tests on Modal, including dependency installation, type checks,
+lint, unit/integration suites, Storybook test-run, browser reproduction, screenshots,
+and video capture. This applies to the lead and every delegated agent. Local shell
+examples in playbooks describe the command to run inside Modal, not permission to
+run it on the user's machine. Local work is limited to reading/editing source, Git,
+API/CLI coordination, source transfer, and inspecting returned evidence.
+
+Use the [Modal runner](docs/modal-verification.md). Run the app server and its
+browser or Storybook test client in the same Modal job. Do not start local servers
+or invoke an MCP test-run backed by a local process. Read-only deployed docs MCP
+calls remain available. Coordinate one verification job at a time per task unless
+the user authorizes parallel remote jobs; workers return commands to the lead.
+
+Missing credentials, unsupported native platforms, failed image setup, and remote
+timeouts are blocked checks. Retain the failure and continue independent work.
+Never retry locally or mark the check passed. Only an explicit user exception for
+the specific local run permits local execution. Include Modal execution and source
+identity in the evidence record; moving an old local baseline to Modal requires
+rerunning both sides in the same remote environment.
+
 ## Continuing work
 
 For scheduled monitoring and follow-ups, use the supported Codex automation tool and its current schema. Use a heartbeat for the current task; create a standalone scheduled project task only when requested. Record the predicate, state-file paths, scope, and notification conditions. Stay quiet on unchanged state. Inspect existing automations before creating duplicates. Never emulate persistent wakeups with a detached sleeping shell.
