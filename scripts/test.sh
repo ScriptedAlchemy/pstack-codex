@@ -4,6 +4,7 @@ repo_root=$(CDPATH='' cd -- "$(dirname -- "$0")/.." && pwd)
 cd "$repo_root"
 "$repo_root/scripts/validate.sh"
 node --test \
+  plugins/pstack/skills/poteto-mode/scripts/check-bug-evidence.test.mjs \
   plugins/pstack/skills/poteto-mode/scripts/check-plan.test.mjs \
   plugins/pstack/skills/poteto-mode/scripts/worktree-audit.test.mjs \
   plugins/pstack/skills/make-bot-ui/scripts/bridge.test.mjs \

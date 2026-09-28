@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "ticket": "",
+  "scope": "",
+  "excluded": [],
+  "requirements": [
+    {
+      "id": "R1",
+      "claim": "",
+      "source": "",
+      "kind": "repro",
+      "layer": "",
+      "scenario": "",
+      "baseline": null,
+      "fixed": null
+    }
+  ],
+  "discoveries": [],
+  "artifacts": [],
+  "shippingFiles": []
+}
