@@ -1,7 +1,7 @@
 [
   {
     "path": ".cursor-plugin/plugin.json",
-    "blob": "19402321c3ac7272b941757838c24b1694c03545"
+    "blob": "6ebc34b96f65088d695e3c3038eb412d750c8bdb"
   },
   {
     "path": ".gitignore",
@@ -13,7 +13,7 @@
   },
   {
     "path": "README.md",
-    "blob": "bc11234c3cda06cc829dabb072c842d1ea8b0794"
+    "blob": "b7cdef8aeb15da88a8f9cdd82904d884552395b7"
   },
   {
     "path": "agents/comment-sicko.md",
@@ -77,7 +77,7 @@
   },
   {
     "path": "docs/guide/01-setup.md",
-    "blob": "4d99dd2a1a68d8cd81bb15a08824006a25bf8cd9"
+    "blob": "1e602f61c81eb1902150b849682b92b8e583fa7c"
   },
   {
     "path": "docs/guide/02-poteto-mode.md",
@@ -101,7 +101,7 @@
   },
   {
     "path": "docs/guide/07-overnight.md",
-    "blob": "43c46529c0a468065854dd9c65bb57f1c0334705"
+    "blob": "9ff66b7706041179ff3661213939a961eb196212"
   },
   {
     "path": "docs/guide/08-principles.md",
@@ -145,7 +145,7 @@
   },
   {
     "path": "skills/architect/SKILL.md",
-    "blob": "923ffc55e8f3f760c80b7ff8a9992fd848c56614"
+    "blob": "afa6eead878d2a7b8d22b8eb99e6cf0c6ee0ad69"
   },
   {
     "path": "skills/architect/references/design-red-flags.md",
@@ -161,7 +161,7 @@
   },
   {
     "path": "skills/arena/SKILL.md",
-    "blob": "d1aec509a2b3aeee58b88c25eb6933db57d4a029"
+    "blob": "e50356e2f97608dbb48d9c1cd75af6d70b3f7059"
   },
   {
     "path": "skills/automate-me/SKILL.md",
@@ -169,7 +169,7 @@
   },
   {
     "path": "skills/blast-radius/SKILL.md",
-    "blob": "298d030cb606b051ca57e89c7b39a12f7fad75a0"
+    "blob": "1713b283d477530be64e925ede2bdbe5ce2d6e31"
   },
   {
     "path": "skills/bro/SKILL.md",
@@ -193,11 +193,11 @@
   },
   {
     "path": "skills/figure-it-out/SKILL.md",
-    "blob": "aa6967aa4bba8a51ada469310e356df02d47916e"
+    "blob": "fbf3fb122cab127d71d3c41e84711e61cc5dec4c"
   },
   {
     "path": "skills/how/SKILL.md",
-    "blob": "7d4627c3bec8a6a994a3cf9bb5686ab33c39ac8f"
+    "blob": "cd22fff659f14822ad2f485f711a355b6da0668d"
   },
   {
     "path": "skills/how/references/explainer-prompt.md",
@@ -205,15 +205,15 @@
   },
   {
     "path": "skills/how/references/explorer-prompt.md",
-    "blob": "8b898d9e729e5d5fa41e95720e44f23a4204de43"
+    "blob": "9b4b0594bfd779015616e9d280369aba939583b4"
   },
   {
     "path": "skills/interrogate/SKILL.md",
-    "blob": "b59dff74c3f665cf82fabd9d197d814df8115531"
+    "blob": "bd82e5b179f186e1cd7913dd112db9f8b07b4846"
   },
   {
     "path": "skills/interrogate/references/code-quality-review.md",
-    "blob": "50230358f9b6138caf66065b1084be595d453d81"
+    "blob": "16581250d81044c7e80fe234c4970a3f7b7fc98a"
   },
   {
     "path": "skills/interrogate/references/lead-judgment.md",
@@ -221,11 +221,11 @@
   },
   {
     "path": "skills/interrogate/references/reviewer-prompt.md",
-    "blob": "53ffa747ff6af72ed24cc00e2622b2c14dd564a9"
+    "blob": "13a252b2c3cd18522d4c8dc39a7030477037b249"
   },
   {
     "path": "skills/interrogate/references/rubric.md",
-    "blob": "04bd4ca6d31a17694071c415c349128a3b404006"
+    "blob": "2d92f1b83e13be03fb10f20cba12639a1406a2da"
   },
   {
     "path": "skills/maintain-verification-skill/SKILL.md",
@@ -241,7 +241,7 @@
   },
   {
     "path": "skills/poteto-mode/SKILL.md",
-    "blob": "7559dea02e890c3e72db4dfcd226facae0779576"
+    "blob": "f8ddcae379007d61aefcae39b18bd836a488ee21"
   },
   {
     "path": "skills/poteto-mode/playbooks/authoring-a-skill.md",
@@ -253,19 +253,19 @@
   },
   {
     "path": "skills/poteto-mode/playbooks/autopilot-full.md",
-    "blob": "78532504732ce78cc4d0ed95f3b7581fe177c090"
+    "blob": "e92be88a8dfcb0a1f2745e0da7af42d31f1d6606"
   },
   {
     "path": "skills/poteto-mode/playbooks/autopilot-stack.md",
-    "blob": "f5b6e1df88f815af1add0a0a3eecd12a318719fe"
+    "blob": "810a70fff72ae49a9387b5ea41dcb13f890c83c0"
   },
   {
     "path": "skills/poteto-mode/playbooks/babysit.md",
-    "blob": "73eddb732ad9d4a4c27c16e3cc6c41f78becc3e1"
+    "blob": "683cf0ba889789cbe2d880fce667c75349f9ed12"
   },
   {
     "path": "skills/poteto-mode/playbooks/bug-fix.md",
-    "blob": "c58289708610217f015387e61c14539b736f7274"
+    "blob": "eeebc42b7477d435d8ac61d631d84822f908f59c"
   },
   {
     "path": "skills/poteto-mode/playbooks/eval.md",
@@ -273,11 +273,11 @@
   },
   {
     "path": "skills/poteto-mode/playbooks/feature.md",
-    "blob": "6cab21817e0f97e1c707d7c47ef82aa4f3ea99cd"
+    "blob": "79a6bbbe0ce61c3b5ef9af1ee8e3ccdb0557edc6"
   },
   {
     "path": "skills/poteto-mode/playbooks/hillclimb.md",
-    "blob": "edb6edc26e9890a327d25e2d748d4824d9906c03"
+    "blob": "582555e826675068ceaea08e6134a44ba0ea4511"
   },
   {
     "path": "skills/poteto-mode/playbooks/investigation.md",
@@ -285,11 +285,11 @@
   },
   {
     "path": "skills/poteto-mode/playbooks/multi-phase-plan.md",
-    "blob": "1fd40dd3f6cd539cd7cc420e2e364282a05a73cf"
+    "blob": "fe006110f6005dcdb746d891e7901a1734a75538"
   },
   {
     "path": "skills/poteto-mode/playbooks/opening-a-pr.md",
-    "blob": "a5c65a0959d0c37ebd12d5636710c4e0f91fba88"
+    "blob": "626f376bd64e2e7b04c2575cb8b8f4ba70a6078d"
   },
   {
     "path": "skills/poteto-mode/playbooks/orchestrate.md",
@@ -297,11 +297,11 @@
   },
   {
     "path": "skills/poteto-mode/playbooks/pause-safely.md",
-    "blob": "ad61122202763e96b59af9aae48afe3e242a751e"
+    "blob": "9d1c5f8303976fff40de099f7f28185909430c11"
   },
   {
     "path": "skills/poteto-mode/playbooks/perf-issue.md",
-    "blob": "e153c343190c97b2a34e50c7dd7a8063b9d2cb08"
+    "blob": "688d483d4d4a6c58efa515558c822e11f621540f"
   },
   {
     "path": "skills/poteto-mode/playbooks/prototype.md",
@@ -309,7 +309,7 @@
   },
   {
     "path": "skills/poteto-mode/playbooks/refactoring.md",
-    "blob": "dfc5d480f450f1b28d70099650f0d12822ac4b6e"
+    "blob": "df2a863b531906c64f92b9f9d8feb62f8c7a8665"
   },
   {
     "path": "skills/poteto-mode/playbooks/runtime-forensics.md",
@@ -321,7 +321,7 @@
   },
   {
     "path": "skills/poteto-mode/playbooks/shipping.md",
-    "blob": "4c83fa3ef3b3457d55ce4b9b3bfd0dd6c12745cd"
+    "blob": "0f1d41f189222b991734015926a3b22607e1b92f"
   },
   {
     "path": "skills/poteto-mode/playbooks/trace-forensics.md",
@@ -349,7 +349,7 @@
   },
   {
     "path": "skills/poteto-mode/scripts/check-plan.mjs",
-    "blob": "21d350ac155928bbcf8d29dce193a97974f12748"
+    "blob": "6c07f4e903d10332702a2ac4602ada9273e71609"
   },
   {
     "path": "skills/poteto-mode/scripts/orch/orch.test.ts",
@@ -453,7 +453,7 @@
   },
   {
     "path": "skills/principle-guard-the-context-window/SKILL.md",
-    "blob": "eb2cecc40f9d830dc077009f93a467be69f195a2"
+    "blob": "c4db544909b26981c45eed9caa6591d32885f841"
   },
   {
     "path": "skills/principle-laziness-protocol/SKILL.md",
@@ -477,15 +477,15 @@
   },
   {
     "path": "skills/principle-never-block-on-the-human/SKILL.md",
-    "blob": "46d410715c0f36cc43f6774dac9f89b3404e9aa4"
+    "blob": "11f08b6ef1fd93a3b3e47c57eb84716dc9acbff9"
   },
   {
     "path": "skills/principle-outcome-oriented-execution/SKILL.md",
-    "blob": "4c2ed4695b4ca15ea5a98468c13bfe5de97f16df"
+    "blob": "c49be0bc74783f0dee013101365ae09b2abb48a2"
   },
   {
     "path": "skills/principle-prove-it-works/SKILL.md",
-    "blob": "4563023d4d9f22e10e33cbf0ae94da156be30618"
+    "blob": "5dc14a3b06f9d579e5c17cd8a7242f432ddb3125"
   },
   {
     "path": "skills/principle-redesign-from-first-principles/SKILL.md",
@@ -497,7 +497,7 @@
   },
   {
     "path": "skills/principle-sequence-verifiable-units/SKILL.md",
-    "blob": "dd008c371ee803decaa1964b72081a646d95d9b9"
+    "blob": "986371260ebccd9a5a6818c9561e88c1d270d0ee"
   },
   {
     "path": "skills/principle-subtract-before-you-add/SKILL.md",
@@ -517,15 +517,15 @@
   },
   {
     "path": "skills/reflect/SKILL.md",
-    "blob": "d004951789602ea16430f9de5a542bf80b419cdb"
+    "blob": "cb270acc507aeaeab7c37db11fc8130cbb2f93f4"
   },
   {
     "path": "skills/reflect/references/divergent-reviewer.md",
-    "blob": "73969d847dd97f2d714df20d27359ce98ad0f7cc"
+    "blob": "de95be3b9cc9c11052596249336dcc328473eb26"
   },
   {
     "path": "skills/reflect/references/judgment-reviewer.md",
-    "blob": "830213aedff81c5b27462988201663e1f0229a72"
+    "blob": "222f02b1c3c6eb3e700fa09a71bad108807d3485"
   },
   {
     "path": "skills/reflect/references/synthesizer.md",
@@ -533,15 +533,15 @@
   },
   {
     "path": "skills/reflect/references/tooling-reviewer.md",
-    "blob": "e7fcd9e669c5a10664f4a14d8856af6978f9e535"
+    "blob": "a37e2009d6ef08f535df87e020e52426c6a5fa33"
   },
   {
     "path": "skills/setup-pstack/SKILL.md",
-    "blob": "ac91245990d4bf237829186eb1e3d170a9199b96"
+    "blob": "1009e73c6116c8f6c24b5870c8f0600ae144b631"
   },
   {
     "path": "skills/show-me-your-work/SKILL.md",
-    "blob": "6e98dd24e619a9097ddd51b2a58ffb8f92b62cbf"
+    "blob": "d350a150c36ca16382b4aa6d4196b39e67454ad1"
   },
   {
     "path": "skills/show-me-your-work/references/decision-log-template.tsv",
@@ -549,15 +549,15 @@
   },
   {
     "path": "skills/show-me-your-work/scripts/log.sh",
-    "blob": "523e2a74ee15bfe6528c795a347827f04ecc5e95"
+    "blob": "052e53b7e1090579eaec1d3d59f7a1cd2f2e452a"
   },
   {
     "path": "skills/swarm/SKILL.md",
-    "blob": "5b465d3ba542703707871165b369406bbd90c7e9"
+    "blob": "a63e09eda94558aa8c7ae6d0653951838a3abd3f"
   },
   {
     "path": "skills/tdd/SKILL.md",
-    "blob": "887a98b7f4ead1ec0d147ce6e5ad6844ef16ca5f"
+    "blob": "ca6f24c963001d9d518db2936dfe3d12f29b4e94"
   },
   {
     "path": "skills/teach/SKILL.md",
@@ -565,7 +565,7 @@
   },
   {
     "path": "skills/technical-writing/SKILL.md",
-    "blob": "70a477e42fc5f37c35bf602d86ff89c0f5258ecf"
+    "blob": "1cd44cf2595a5caeda1f702aacd4f8a25aa8166a"
   },
   {
     "path": "skills/typescript-best-practices/SKILL.md",
@@ -577,11 +577,11 @@
   },
   {
     "path": "skills/unslop/SKILL.md",
-    "blob": "a3a7dc7baf0bed5fed4fe0f12ea7fcfe48d94c89"
+    "blob": "229a090708710c36caa0017f8d33e90880dc6846"
   },
   {
     "path": "skills/why/SKILL.md",
-    "blob": "53045ddba6f52fa0eec44101fd8e363d47141832"
+    "blob": "daac2c734a8f8fe43d30663054d694066f2b41ec"
   },
   {
     "path": "skills/why/references/epistemics.md",

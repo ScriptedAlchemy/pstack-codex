@@ -11,6 +11,8 @@ Investigate the motivation and intent behind code.
 
 Companion to the `how` skill. `how` answers what the code does and how it works. `why` answers what forces led to its shape.
 
+Resolve the named role line in `~/.codex/pstack-models.md` before each spawn, following `CODEX.md`: missing lines use the default, `auto` and `inherit-parent` omit both overrides, and unavailable choices are reported with inheritance as the explicit fallback. Split `model @ effort` into separate host fields.
+
 ## Operating Posture
 
 Operate as a **careful, cautious, and precise investigator**. Be honest about what you know vs what you're inferring. Read `references/epistemics.md` for the full confidence framework and phrasing guide. The synthesizer must follow it.
@@ -80,7 +82,7 @@ Launch all matching investigators in a single message so they run concurrently. 
 
 Subagent config (each):
 - use the default agent only if the current spawn schema exposes an agent selector
-- `model`: your configured why-investigators model (default `gpt-5.6-luna`)
+- `model`: the `why investigators` line (default `gpt-5.6-terra @ medium`)
 - Read-only investigation: forbid writes and mutating tools in the prompt. MCP access follows the host permissions; do not pass a readonly parameter.
 
 Each investigator gets:
@@ -124,7 +126,7 @@ If your scope assessment suggests a single-commit trivial target where the PR de
 Spawn one synthesizer subagent:
 
 - use the default agent only if the current spawn schema exposes an agent selector
-- `model`: your configured why-synthesizer model (default `gpt-6-astra`)
+- `model`: the `why synthesizer` line (default `gpt-6-astra @ high`)
 - Read-only investigation: forbid writes and mutating tools in the prompt. MCP access follows the host permissions; do not pass a readonly parameter.
 
 The synthesizer gets:

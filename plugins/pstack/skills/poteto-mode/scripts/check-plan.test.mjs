@@ -88,3 +88,9 @@ for (const configured of ['gpt-5.6-terra', 'inherit-parent']) {
     assert.equal(result.status, 0, result.stderr);
   });
 }
+
+test('an unfilled worker model placeholder is rejected', () => {
+  const result = check(populatedPlan().replaceAll('`gpt-5.6-luna`', '`<swarm workers model>`'));
+  assert.equal(result.status, 1);
+  assert.match(result.stderr, /must name ten lanes/);
+});

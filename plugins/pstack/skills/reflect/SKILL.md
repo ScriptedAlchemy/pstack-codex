@@ -9,6 +9,8 @@ Before following this workflow, read [the Codex runtime contract](../../CODEX.md
 
 Mine the current conversation for durable learnings, then route them into skill edits.
 
+Resolve the named role line in `~/.codex/pstack-models.md` before each spawn, following `CODEX.md`: missing lines use the default, `auto` and `inherit-parent` omit both overrides, and unavailable choices are reported with inheritance as the explicit fallback. Split `model @ effort` into separate host fields.
+
 ## When to invoke
 
 Invoke when the user says "reflect" or "$reflect". Skip when the conversation is trivial, off-topic, or already covered by an existing skill the parent followed correctly. One-offs are not learnings.
@@ -27,19 +29,19 @@ For each candidate, read the first JSONL line and require `type == "session_meta
 
 ### 2. Spawn three reviewers in parallel
 
-One message, three `spawn_agent` calls using the `default` agent, explicit model and reasoning settings on each, and normal write-capable mode. Reviewers need MCP access for context lookups referenced in the transcript. Subagents inherit the parent's available MCP tools.
+One message, three `spawn_agent` calls using the `default` agent, the named role line and default on each, and normal write-capable mode. Reviewers need MCP access for context lookups referenced in the transcript. Subagents inherit the parent's available MCP tools.
 
 | Lens | `model` | Prompt template |
 |---|---|---|
-| Judgment | your configured reflect-judgment model (default `gpt-6-astra`) | `references/judgment-reviewer.md` |
-| Tooling | your configured reflect-tooling model (default `gpt-5.6-sol`) | `references/tooling-reviewer.md` |
-| Divergent | your configured reflect-judgment model (default `gpt-6-astra`) | `references/divergent-reviewer.md` |
+| Judgment | `reflect judgment, divergent, synthesizer` (default `gpt-6-astra @ high`) | `references/judgment-reviewer.md` |
+| Tooling | `reflect tooling` (default `gpt-5.6-sol @ high`) | `references/tooling-reviewer.md` |
+| Divergent | `reflect judgment, divergent, synthesizer` (default `gpt-6-astra @ high`) | `references/divergent-reviewer.md` |
 
 Pass each template verbatim, substituting the transcript path or digest where marked. Reviewers return findings in their final response.
 
 ### 3. Synthesize
 
-One `spawn_agent` call using the `default` agent and configured reflect-judgment model (default `gpt-6-astra @ high`) in normal write-capable mode. The synthesizer spot-verifies citations and may need inherited MCP tools. Use `references/synthesizer.md` verbatim, with each reviewer's full output inlined where marked. The synthesizer returns a structured Accepted / Rejected / Backlog list.
+One `spawn_agent` call using the `default` agent and `reflect judgment, divergent, synthesizer` line (default `gpt-6-astra @ high`) in normal write-capable mode. The synthesizer spot-verifies citations and may need inherited MCP tools. Use `references/synthesizer.md` verbatim, with each reviewer's full output inlined where marked. The synthesizer returns a structured Accepted / Rejected / Backlog list.
 
 ### 4. Structural enforcement check
 
