@@ -22,7 +22,7 @@ Copy `references/decision-log-template.tsv` (the header row) to start a clean lo
 - **evidence.** A link or path that proves it: commit SHA, PR number, `file:line`, or an artifact, trace, or screenshot path. Never a paragraph.
 - **result.** The outcome or predicate state: `tests green`, `reverted`, `pixel-diff 0`, `INCONCLUSIVE`, `open`.
 
-An example, plain-spoken so a reviewer reads it at a glance. This is illustration only. Don't copy these rows into a real log.
+An example, plain-spoken so a reviewer reads it at a glance.
 
 ```
 ts	phase	decision	why	evidence	result
@@ -40,6 +40,8 @@ Use the helper `scripts/log.sh <logfile> <phase> <decision> <why> <evidence> <re
 
 Log decision points and checkpoints, not every action: a fork chosen, a unit completed with its verification result, a pivot or revert with its trigger, a blocker surfaced, a gate fixed. For loop runs, one row per iteration. Skip the trivial and self-evident.
 
+A run is one agent conversation, including later turns and summaries. A pickup, replacement agent, or new chat starts a new run. When appending to an existing log, its first row has phase `start`, as does its first row after another run's `start` row. Read the last rows before returning to the log. A `start` row names the timestamp range of preceding rows this run did not write and identifies this run in its evidence (for example its agent id). Reserve phase `start` for this purpose.
+
 ## Where it lives
 
 By default the log is a working artifact, not committed. Keep it at `decisions.tsv` in the work dir, or `.audit/<task-slug>.tsv` when several efforts run at once, and leave it out of git.
@@ -48,20 +50,20 @@ Commit it only when the work is ambitious enough that a reviewer needs the trail
 
 ## Rules
 
-- One row is one decision or checkpoint.
+
 - Append-only. A wrong call gets a new row that supersedes it. Never edit or delete history.
 - Prefer evidence produced by committed scripts over hand-made one-offs (the **encode-lessons-in-structure** principle skill).
 
 ## Audit the log against the transcript
 
-At the end of the run, before handing back, check the log told the truth. Read this run's transcript under `~/.codex/sessions/YYYY/MM/DD/*.jsonl`, filtered to files whose first `session_meta.payload.cwd` equals the current workspace. Don't glob across `~/.codex/sessions/`. That reads unrelated private chats. Walk the log against what actually happened:
+At the end of the run, before handing back, check the log told the truth. Read this run's transcript under `~/.codex/sessions/YYYY/MM/DD/*.jsonl`, filtered to files whose first `session_meta.payload.cwd` equals the current workspace. Don't glob across `~/.codex/sessions/`. That reads unrelated private chats. Walk this run's rows against what actually happened. Each stretch begins at its `start` row (or the first row if it created the log) and ends at another run's `start` row:
 
-- Every row maps to a real action. Cut invented or aspirational entries.
-- Each row's evidence resolves and shows what the row claims.
+- Check that every row maps to a real decision or action.
+- Check that each row's evidence resolves and shows what the row claims.
 - A fork, pivot, or abandoned approach that shaped the work but isn't logged is a gap. Add it.
-- Drop padding.
 
-Fix the log, not the story. If the work diverged from what a row claims, the row is wrong.
+
+Correct the log, not the story. The audit never edits or removes a row, even an invented one. When a row records neither a real decision nor a real action, or its claim or evidence is wrong, add a row that supersedes it with what actually happened and a pointer that resolves. This audit does not check rows outside this run's stretches. If this run's own work shows one of them is wrong, supersede it like any wrong call.
 
 ## Cross-model review of the trail
 

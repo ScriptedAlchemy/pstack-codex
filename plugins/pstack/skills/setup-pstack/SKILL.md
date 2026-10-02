@@ -11,7 +11,7 @@ Write `~/.codex/pstack-models.md`, the override file every delegating pstack ski
 
 ## 1. Load current state
 
-Read the existing override file when present. Otherwise start from the defaults in step 4. Determine which Codex models the current host exposes from the current tool metadata or official local model picker. Never invent a model slug. `inherit-parent` and `auto` are always valid and both mean to omit the model override.
+Read the existing override file when present, preserving its budget and configured role values. Otherwise start from the defaults in step 4. Drop retired roles absent from step 4 (for example `how critics`) and list each dropped line when showing the proposed configuration. Determine which Codex models the current host exposes from the current tool metadata or official local model picker. Never invent a model slug. `inherit-parent` and `auto` are always valid and both mean to omit the model override.
 
 ## 2. Choose a budget
 

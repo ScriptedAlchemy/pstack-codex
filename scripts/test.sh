@@ -8,6 +8,7 @@ node --test \
   plugins/pstack/skills/poteto-mode/scripts/worktree-audit.test.mjs \
   plugins/pstack/skills/make-bot-ui/scripts/bridge.test.mjs \
   plugins/pstack/automations/benny/scripts/ledger.test.mjs \
+  tests/runtime/log.test.mjs \
   tests/runtime/runtime.test.mjs
 if ! command -v bun >/dev/null; then
   echo 'Install Bun to run the retained orchestration and PR-watcher tests.' >&2

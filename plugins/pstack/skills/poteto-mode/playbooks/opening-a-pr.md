@@ -30,4 +30,4 @@ After these sections, attach videos or screenshots when they prove a claim. Do n
 
 **Babysit.** Opening a PR does not start a babysit. Post the URL and keep building. Finish the phase or stack first. Run a separate babysit pass only when the user asks for one after the whole stack exists. A babysit for each new PR stalls the build and spends checks on commits that later waves restart. Push back when feedback drifts from intent.
 
-A subagent that opens a PR runs `interrogate`, `a focused diff-cleanup pass`, and `$no-comments`. It returns the URL and does not babysit. Return to the parent.
+A subagent that opens a PR runs `interrogate`, `a focused diff-cleanup pass`, and `$no-comments`. It posts the URL and returns to the parent without babysitting, unless it owns Autopilot-full or Autopilot-stack. That owner's brief authorizes the babysit loop: start it after the code-ready report and report merge-ready or STACK-READY as its playbook requires. The whole-stack waiting rule does not apply to that owner.

@@ -9,6 +9,8 @@ Before following this workflow, read [the Codex runtime contract](../../CODEX.md
 
 Explore the codebase to answer "how does X work?" questions. Produce architectural explanations at the level of a senior engineer onboarding onto a subsystem, enough to build a working mental model, not so much that it reads like annotated source code.
 
+Resolve the named role line in `~/.codex/pstack-models.md` before each spawn, following `CODEX.md`: missing lines use the default, `auto` and `inherit-parent` omit both overrides, and unavailable choices are reported with inheritance as the explicit fallback. Split `model @ effort` into separate host fields.
+
 ## Step 1. Assess Complexity
 
 If the scope is ambiguous, state your interpretation and explore. The user can redirect.
@@ -23,7 +25,7 @@ When in doubt, take the simple path.
 Decompose the question into 2 to 4 exploration angles, each a distinct slice of the subsystem. Spawn all explorers in a single message:
 
 - use the default agent only if the current spawn schema exposes an agent selector
-- `model`: your configured how-explorer model (default `gpt-5.6-luna`)
+- `model`: the `how explorer` line (default `gpt-5.6-terra @ medium`)
 - read-only by instruction: forbid writes and mutating commands in the prompt
 
 Each explorer gets the prompt in `references/explorer-prompt.md` with its angle filled in. Then go to Step 3.
@@ -33,7 +35,7 @@ Each explorer gets the prompt in `references/explorer-prompt.md` with its angle 
 Spawn one Codex subagent that explores and explains in one pass:
 
 - use the default agent only if the current spawn schema exposes an agent selector
-- `model`: your configured how-explainer model (default `gpt-6-astra`)
+- `model`: the `how explainer` line (default `gpt-6-astra @ high`)
 - read-only by instruction: forbid writes and mutating commands in the prompt
 
 Build its prompt from `references/explainer-prompt.md` without the explorer-findings section. Go to Step 4.
@@ -43,7 +45,7 @@ Build its prompt from `references/explainer-prompt.md` without the explorer-find
 Once all explorers have returned, spawn one Codex subagent to synthesize their findings into one explanation:
 
 - use the default agent only if the current spawn schema exposes an agent selector
-- `model`: your configured how-explainer model (default `gpt-6-astra`)
+- `model`: the `how explainer` line (default `gpt-6-astra @ high`)
 - read-only by instruction: forbid writes and mutating commands in the prompt
 
 Build its prompt from `references/explainer-prompt.md` with every explorer's findings filled in.
