@@ -122,6 +122,8 @@ $interrogate review this pr.
 | [`$swarm`](./skills/swarm/SKILL.md) | you want N parallel workers across different slices or races, then one aggregated report. |
 | [`$interrogate`](./skills/interrogate/SKILL.md) | you have a diff and want several different models to try to break it, including a strict code-quality lens. |
 | [`$automate-me`](./skills/automate-me/SKILL.md) | you want your own `-mode` skill, drafted from how you've actually worked. |
+| [`$automate-maintainer`](./skills/automate-maintainer/SKILL.md) | you want modes based on one or more named GitHub maintainers' code and review conventions. |
+| [`$automate-team`](./skills/automate-team/SKILL.md) | you want to discover a repository's core contributors and capture their shared conventions and differences. |
 | [`$make-bot-ui`](./skills/make-bot-ui/SKILL.md) | you want a page or dashboard in front of an existing Codex-backed endpoint or a safe local `codex exec` bridge. |
 | [`$setup-pstack`](./skills/setup-pstack/SKILL.md) | you want to choose Codex models and reasoning effort per pstack role. |
 | [`$reflect`](./skills/reflect/SKILL.md) | a long task landed and you want the recipe captured as a skill edit. |

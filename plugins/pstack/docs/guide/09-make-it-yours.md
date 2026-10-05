@@ -65,3 +65,9 @@ Read every output yourself before accepting the verdict. If you disagree with th
 **Pitfall:** don't edit a skill mid-task because it's misbehaving. Fix it in its own PR and keep the task moving. A skill edit that ships tangled into feature work is invisible to review and impossible to evaluate.
 
 Next: [Recipes and pitfalls](./10-recipes-and-pitfalls.md).
+
+## Capture maintainers and teams
+
+Use [`$automate-maintainer`](../../skills/automate-maintainer/SKILL.md) with a GitHub login or a list of logins and a repository scope. It studies authored code, commits, reviews, issues, and discussions, then drafts individual modes and a group mode with evidence links.
+
+Use [`$automate-team`](../../skills/automate-team/SKILL.md) with a repository to discover its active core contributors first. It builds a team mode from shared standards, specialized ownership, and documented differences. Neither mode speaks for the contributors or grants their approval.

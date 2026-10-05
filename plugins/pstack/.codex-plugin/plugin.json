@@ -1,6 +1,6 @@
 {
   "name": "pstack",
-  "version": "0.15.5+codex.202610020001",
+  "version": "0.15.5+codex.202610050001",
   "description": "Rigorous engineering workflows for writing less, higher-quality code, ported from Lauren Tan's Cursor pstack plugin.",
   "author": {
     "name": "Lauren Tan",

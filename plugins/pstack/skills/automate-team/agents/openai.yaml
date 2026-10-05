@@ -1,0 +1,5 @@
+interface:
+  display_name: "automate-team"
+  short_description: "Discover core contributors and capture team conventions."
+policy:
+  allow_implicit_invocation: false
