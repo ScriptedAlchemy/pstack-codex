@@ -21,6 +21,8 @@ cd pstack-codex
 
 The script validates the package, registers this checkout as the `pstack-codex` marketplace, and installs `pstack@pstack-codex`. It does not edit your Codex configuration by hand or overwrite personal agent definitions. Start a new Codex task after installation and invoke `$setup-pstack`. Most pstack skills are intentionally explicit-only; invoke them with `$<skill-name>`, such as `$interrogate`. Ask to use `$poteto-mode` as a standing instruction for the current task when you want the orchestration workflow. Repository-local skills belong under `.agents/skills`, not `.codex/skills`.
 
+Use `$automate-maintainer sokra, alex for owner/repo` to draft conventions from named GitHub users. Use `$automate-team owner/repo` to discover active core contributors and mine their code, reviews, and design discussions into a team mode. Both workflows keep evidence and ownership explicit; they create skills without posting or acting as the people studied.
+
 Alternatively, install the published marketplace without cloning:
 
 ```sh

@@ -1,0 +1,5 @@
+interface:
+  display_name: "automate-maintainer"
+  short_description: "Capture one or more maintainers' engineering conventions."
+policy:
+  allow_implicit_invocation: false

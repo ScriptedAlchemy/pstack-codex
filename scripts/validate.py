@@ -40,7 +40,7 @@ for key in ("logo", "logoDark", "composerIcon"):
     if path:
         check((PLUGIN / path).is_file(), f"Missing interface asset: {path}")
 skills = sorted((PLUGIN / "skills").glob("*/SKILL.md"))
-check(len(skills) == 47, f"Expected 47 reviewed source skills, got {len(skills)}; reconcile upstream inventory before changing this check")
+check(len(skills) == 49, f"Expected 49 reviewed skills, including two Codex additions, got {len(skills)}; reconcile upstream inventory before changing this check")
 for skill in skills:
     content = skill.read_text()
     check(content.startswith("---\n"), f"Missing frontmatter: {skill}")
