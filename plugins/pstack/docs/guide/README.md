@@ -17,6 +17,14 @@ Here's what you'll learn:
 
 Read the pages in order the first time. After that, each page stands alone.
 
+When you're stuck, or can't tell which skill fits, type [`$poteto-help`](../../skills/poteto-help/SKILL.md) with your question:
+
+```text
+$poteto-help which skill should i use to review this branch?
+```
+
+It answers, hands you a prompt to send, and links the skill or guide page the answer came from. It doesn't start the work, because a pstack run spends real tokens, so you send the prompt when you're ready. It runs only when you type it.
+
 ## If you only remember one thing
 
 Give the agent a goal and a way to check it, in your own words:
@@ -28,3 +36,5 @@ $poteto-mode the export writes duplicate rows when a retry lands mid-run. repro 
 You don't need to name a playbook or list skills. "repro first" and a checkable outcome are all the routing signal `$poteto-mode` needs. It matches the Bug fix playbook, copies the steps into a todo list, and calls the right skills as each step fires.
 
 Next: [Set up pstack](./01-setup.md).
+
+Recent additions include [`$correct`](../../skills/correct/SKILL.md), [`$benchmark-checklist`](../../skills/benchmark-checklist/SKILL.md), and the [Explain the Number principle](../../skills/principle-explain-the-number/SKILL.md).

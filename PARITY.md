@@ -7,8 +7,8 @@ File coverage alone does not prove behavioral equivalence.
 
 | Upstream feature | Codex implementation | Boundary |
 |---|---|---|
-| 47 upstream skills, 2 Codex additions, and 23 playbooks | Native skills, relative resources, shared `CODEX.md` runtime contract | Invocation uses `$skill-name`; routed explicit-only skills are read directly |
-| Engineering principles | All 23 principle skills retained | Applied when the routing workflow calls for them |
+| 51 upstream skills, 2 Codex additions, and 23 playbooks | Native skills, relative resources, shared `CODEX.md` runtime contract | Invocation uses `$skill-name`; routed explicit-only skills are read directly |
+| Engineering principles | All 24 principle skills retained | Applied when the routing workflow calls for them |
 | poteto-agent and Comment Sicko | Bundled persona instructions; optional custom-agent TOML | Named-agent registration is optional, not automatic plugin discovery |
 | Role-based models and panels | Host-validated model/effort preferences; inheritance fallback | Model availability and concurrent capacity depend on the host; panels run in waves |
 | Parallel workers | Explicit worktrees and bounded Codex subagents | No automatic cloud VM, branch isolation, or durable worker ID |

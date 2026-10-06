@@ -41,8 +41,8 @@ Tests alone are not sufficient verification. A PR is verified only when its unit
   - [ ] `git show origin/main:<control skill path>`
   - [ ] `<plugin-root>/skills/poteto-mode/playbooks/opening-a-pr.md`
   - [ ] `<plugin-root>/skills/<each other leaf skill the program uses>`
-- [ ] Arm the 30-minute audit tick. In a local session, a Codex heartbeat automation. Where scheduling is unavailable, save a resume capsule and report that no future wake is armed. Never leave the cadence to memory.
-- [ ] Use this tick prompt, verbatim. "Re-read the installed execution playbook and the durable program objective (and the Codex goal when explicitly requested). Audit the operation against both and fix drift in this tick. Probe every active lane and judge progress by side effects only. Stand down a stuck lane and dispatch its replacement now. Then post a status message to the operator only when something changed or needs attention, with the queue table of PR, owner, state, and head SHA, the verdicts since the last tick, what merged, open operator gates, and blockers."
+- [ ] Arm the hourly audit tick. In a local session, a Codex heartbeat automation. Where scheduling is unavailable, save a resume capsule and report that no future wake is armed. Never leave the cadence to memory.
+- [ ] Use this tick prompt, verbatim. "Re-read the installed execution playbook and the durable program objective (and the Codex goal when explicitly requested). Audit the operation against both and fix drift in this tick. Probe every active lane and judge progress by side effects only. Stand down a stuck lane and dispatch its replacement now. Then post a status message to the operator only for tracked changes not already reported, such as a PR opened, a new code-ready head, a round or verdict, a merge, a stuck agent and the action taken, a blocker added or cleared, or a decision the operator must make. Name those changes only. Do not repeat the queue table, merged list, or unchanged blockers. Stay quiet if nothing changed. Log the tick and what it reported, or none, in the decision trail."
 - [ ] On the operator's hold or stand-down, send every owner a zero-writes order at once.
 
 ### Spawn owners
@@ -57,7 +57,7 @@ Tests alone are not sufficient verification. A PR is verified only when its unit
 ### PR mechanics, for every PR
 
 - [ ] Resolve the forge once. Default to `gh`; if `command -v origin` succeeds and Origin can resolve the repository, use `origin pr` for every PR operation. Record any fallback to `gh`. Never require `gt`.
-- [ ] Open the PR ready, never draft, with `origin pr create --status open --base <base-branch>` or `gh pr create --base <base-branch>` according to the resolved forge. A stack child targets its parent branch.
+- [ ] Open the PR ready, never draft, per **Opening a PR**. Use a built-in PR tool for operations it supports, otherwise use `origin pr create --status open --base <base-branch>` or `gh pr create --base <base-branch>` according to the resolved forge. A stack child targets its parent branch.
 - [ ] Run the repo's lint and typecheck once before the PR-facing push. Push with hooks on.
 - [ ] Run `a focused diff-cleanup pass` before each commit and `$no-comments` before review.
 - [ ] Triage every Bugbot and security-reviewer comment per `../references/bugbot-triage.md`.
