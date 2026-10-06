@@ -35,6 +35,15 @@ Say yes and it writes `.agents/skills/verify-<app>/`, a project-local skill that
 
 After setup, start a new task so the custom agents are reloaded.
 
+## Keep the cost in check
+
+pstack spends extra tokens on subagents and review panels. That's the price of the rigor. To spend fewer:
+
+- Rerun `$setup-pstack` and pick a smaller reasoning budget or cheaper models. A strong model in the main chat with cheaper, faster models in the code roles is a good split.
+- Set a role to `auto` or `inherit-parent` so it runs on the chat's own model.
+- Shorten a panel list. Each entry runs one subagent.
+- Save `$poteto-mode` for work that needs rigor. A small, obvious edit doesn't.
+
 ## Run your first task
 
 Pick something real but small, and describe it the way you'd describe it to a colleague:

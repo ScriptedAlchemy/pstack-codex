@@ -28,7 +28,7 @@ two steps:
 1. run [`$setup-pstack`](./skills/setup-pstack/SKILL.md), pick a reasoning budget, and choose which models you want.
 2. use [`$poteto-mode`](./skills/poteto-mode/SKILL.md) whenever you're doing anything that requires rigor.
 
-new here? the [pstack guide](./docs/guide/README.md) walks you through a first real task, from setup and prompting through verification and overnight runs.
+new here? the [pstack guide](./docs/guide/README.md) walks you through a first real task, from setup and prompting through verification and overnight runs. stuck, or unsure which skill fits? ask [`$poteto-help`](./skills/poteto-help/SKILL.md).
 
 that's it. the other skills are situational; the mode skill uses them as needed. out of the box, fast code goes to gpt-5.6-luna, exploration to gpt-5.6-terra, tooling review to gpt-5.6-sol, and the hardest judgment to gpt-6-astra. [`$setup-pstack`](./skills/setup-pstack/SKILL.md) changes any role.
 
@@ -112,6 +112,9 @@ $interrogate review this pr.
 
 | skill | use it when |
 |---|---|
+| [`$poteto-help`](./skills/poteto-help/SKILL.md) | you want setup help, a skill choice, or a prompt for your task. |
+| [`$correct`](./skills/correct/SKILL.md) | you want repeated agent mistakes prevented through architecture, types, checks, or tests. |
+| [`$benchmark-checklist`](./skills/benchmark-checklist/SKILL.md) | you need to vet a measured performance number before acting on it. |
 | [`$poteto-mode`](./skills/poteto-mode/SKILL.md) | default entry point for any non-trivial task. |
 | [`$how`](./skills/how/SKILL.md) | you want a walkthrough of how a subsystem works. |
 | [`$why`](./skills/why/SKILL.md) | you want to know why something was built this way. discovers available MCPs at run time and queries each evidence category in parallel (source control, issue tracker, long-form docs, real-time chat, infra observability, error tracking, analytics warehouse). |
@@ -182,6 +185,8 @@ tdd:               $tdd implement
 unslop:            can we unslop and tighten the new changes?
 reflect:           $reflect that took too long. capture what we learned so the next run doesn't
                    repeat it.
+correct:           $correct
+help:              $poteto-help which skill should i use to review this branch?
 show-me-your-work: $show-me-your-work keep a decision trail i can review when i'm back.
 automate-me:       $automate-me
 ```
@@ -198,10 +203,10 @@ pstack also ships [Comment Sicko](./agents/comment-sicko.md), a read-only custom
 
 ## principles
 
-twenty-three short skills, one principle each. `poteto-mode` indexes them inline and reads that index at task start. the standalone files are there so other skills can reference a principle by name, and so the index can point at the full rule for each.
+twenty-four short skills, one principle each. `poteto-mode` indexes them inline and reads that index at task start. the standalone files are there so other skills can reference a principle by name, and so the index can point at the full rule for each.
 
 <details>
-<summary>all twenty-three principles</summary>
+<summary>all twenty-four principles</summary>
 
 | principle | group | rule |
 |---|---|---|
@@ -225,6 +230,7 @@ twenty-three short skills, one principle each. `poteto-mode` indexes them inline
 | [fix-root-causes](./skills/principle-fix-root-causes/SKILL.md) | verification | Trace each symptom to its root cause and fix it there; reproduce first, ask why until you reach it, resist nil-check guards that silence crashes. |
 | [sequence-verifiable-units](./skills/principle-sequence-verifiable-units/SKILL.md) | verification | Apply to multi-step work (sweeps, migrations, runs of similar edits) and to how you stack commits and PRs. Break work into small units that each end in a verifiable state, check each before the next, and order delivery so the sequence proves itself to a reviewer. |
 | [test-behavior-not-implementation](./skills/principle-test-behavior-not-implementation/SKILL.md) | verification | Apply when you write, change, or keep a test. Call the code the way its users do and assert the result they observe against a literal expected value. If the test would still pass when every imported function returns undefined, rewrite the assertion or delete the test. |
+| [explain-the-number](./skills/principle-explain-the-number/SKILL.md) | verification | Apply before you trust, report, or act on a number you measured: a speedup, a regression, a throughput, a latency, or an eval result. Find what limits it, and rule out that it measured something other than the work you think. |
 | [guard-the-context-window](./skills/principle-guard-the-context-window/SKILL.md) | delegation | Route bulk to subagents; keep summaries in the main thread, not raw payloads. |
 | [never-block-on-the-human](./skills/principle-never-block-on-the-human/SKILL.md) | delegation | Proceed, present the result, let the human course-correct after the fact; reserve confirmation for irreversible actions. |
 | [encode-lessons-in-structure](./skills/principle-encode-lessons-in-structure/SKILL.md) | meta | Encode the rule as a lint, metadata flag, runtime check, or script instead of more text. |

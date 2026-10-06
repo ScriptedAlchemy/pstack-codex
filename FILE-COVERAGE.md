@@ -1,6 +1,6 @@
 # Upstream file coverage
 
-Pinned source: `7022c81efb48d8b5eb15498ce6043a3bd74b694c`.
+Pinned source: `e5a8186d7b43be8d6ac4452440fbead5f1a51c70`.
 
 Every source file is checked; content adaptation is not a claim of tested runtime equivalence.
 
@@ -48,8 +48,10 @@ Every source file is checked; content adaptation is not a claim of tested runtim
 | `skills/architect/references/runner-prompt.md` | `plugins/pstack/skills/architect/references/runner-prompt.md` | retained verbatim |
 | `skills/arena/SKILL.md` | `plugins/pstack/skills/arena/SKILL.md` | adapted |
 | `skills/automate-me/SKILL.md` | `plugins/pstack/skills/automate-me/SKILL.md` | adapted |
+| `skills/benchmark-checklist/SKILL.md` | `plugins/pstack/skills/benchmark-checklist/SKILL.md` | adapted |
 | `skills/blast-radius/SKILL.md` | `plugins/pstack/skills/blast-radius/SKILL.md` | adapted |
 | `skills/bro/SKILL.md` | `plugins/pstack/skills/bro/SKILL.md` | adapted |
+| `skills/correct/SKILL.md` | `plugins/pstack/skills/correct/SKILL.md` | adapted |
 | `skills/create-verification-skill/SKILL.md` | `plugins/pstack/skills/create-verification-skill/SKILL.md` | adapted |
 | `skills/create-verification-skill/references/feature-map-example/README.md` | `plugins/pstack/skills/create-verification-skill/references/feature-map-example/README.md` | retained verbatim |
 | `skills/create-verification-skill/references/feature-map-example/create-note.md` | `plugins/pstack/skills/create-verification-skill/references/feature-map-example/create-note.md` | retained verbatim |
@@ -66,6 +68,9 @@ Every source file is checked; content adaptation is not a claim of tested runtim
 | `skills/maintain-verification-skill/SKILL.md` | `plugins/pstack/skills/maintain-verification-skill/SKILL.md` | adapted |
 | `skills/make-bot-ui/SKILL.md` | `plugins/pstack/skills/make-bot-ui/SKILL.md` | adapted |
 | `skills/no-comments/SKILL.md` | `plugins/pstack/skills/no-comments/SKILL.md` | adapted |
+| `skills/poteto-help/SKILL.md` | `plugins/pstack/skills/poteto-help/SKILL.md` | adapted |
+| `skills/poteto-help/references/prompting.md` | `plugins/pstack/skills/poteto-help/references/prompting.md` | adapted |
+| `skills/poteto-help/references/recipes.md` | `plugins/pstack/skills/poteto-help/references/recipes.md` | adapted |
 | `skills/poteto-mode/SKILL.md` | `plugins/pstack/skills/poteto-mode/SKILL.md` | adapted |
 | `skills/poteto-mode/playbooks/authoring-a-skill.md` | `plugins/pstack/skills/poteto-mode/playbooks/authoring-a-skill.md` | adapted |
 | `skills/poteto-mode/playbooks/autonomous-run.md` | `plugins/pstack/skills/poteto-mode/playbooks/autonomous-run.md` | adapted |
@@ -80,7 +85,7 @@ Every source file is checked; content adaptation is not a claim of tested runtim
 | `skills/poteto-mode/playbooks/multi-phase-plan.md` | `plugins/pstack/skills/poteto-mode/playbooks/multi-phase-plan.md` | adapted |
 | `skills/poteto-mode/playbooks/opening-a-pr.md` | `plugins/pstack/skills/poteto-mode/playbooks/opening-a-pr.md` | adapted |
 | `skills/poteto-mode/playbooks/orchestrate.md` | `plugins/pstack/skills/poteto-mode/playbooks/orchestrate.md` | adapted |
-| `skills/poteto-mode/playbooks/pause-safely.md` | `plugins/pstack/skills/poteto-mode/playbooks/pause-safely.md` | retained verbatim |
+| `skills/poteto-mode/playbooks/pause-safely.md` | `plugins/pstack/skills/poteto-mode/playbooks/pause-safely.md` | adapted |
 | `skills/poteto-mode/playbooks/perf-issue.md` | `plugins/pstack/skills/poteto-mode/playbooks/perf-issue.md` | adapted |
 | `skills/poteto-mode/playbooks/prototype.md` | `plugins/pstack/skills/poteto-mode/playbooks/prototype.md` | adapted |
 | `skills/poteto-mode/playbooks/refactoring.md` | `plugins/pstack/skills/poteto-mode/playbooks/refactoring.md` | adapted |
@@ -117,6 +122,7 @@ Every source file is checked; content adaptation is not a claim of tested runtim
 | `skills/principle-encode-lessons-in-structure/SKILL.md` | `plugins/pstack/skills/principle-encode-lessons-in-structure/SKILL.md` | adapted |
 | `skills/principle-exhaust-the-design-space/SKILL.md` | `plugins/pstack/skills/principle-exhaust-the-design-space/SKILL.md` | adapted |
 | `skills/principle-experience-first/SKILL.md` | `plugins/pstack/skills/principle-experience-first/SKILL.md` | adapted |
+| `skills/principle-explain-the-number/SKILL.md` | `plugins/pstack/skills/principle-explain-the-number/SKILL.md` | adapted |
 | `skills/principle-fix-root-causes/SKILL.md` | `plugins/pstack/skills/principle-fix-root-causes/SKILL.md` | adapted |
 | `skills/principle-foundational-thinking/SKILL.md` | `plugins/pstack/skills/principle-foundational-thinking/SKILL.md` | adapted |
 | `skills/principle-guard-the-context-window/SKILL.md` | `plugins/pstack/skills/principle-guard-the-context-window/SKILL.md` | adapted |

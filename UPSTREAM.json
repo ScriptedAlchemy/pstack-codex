@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/cursor/plugins.git",
   "subdirectory": "pstack",
-  "commit": "7022c81efb48d8b5eb15498ce6043a3bd74b694c",
-  "version": "0.15.5"
+  "commit": "e5a8186d7b43be8d6ac4452440fbead5f1a51c70",
+  "version": "0.15.13"
 }

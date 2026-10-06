@@ -75,4 +75,4 @@ The audit fetches upstream Git objects and prints pstack-only changes since the 
 
 ## License and attribution
 
-MIT. Original pstack copyright © 2026 Lauren Tan; original license is retained in [LICENSE](LICENSE) and the plugin. Codex adaptation changes are distributed under the same license. Upstream version: 0.15.5, source commit `7022c81efb48d8b5eb15498ce6043a3bd74b694c`.
+MIT. Original pstack copyright © 2026 Lauren Tan; original license is retained in [LICENSE](LICENSE) and the plugin. Codex adaptation changes are distributed under the same license. Upstream version: 0.15.13, source commit `e5a8186d7b43be8d6ac4452440fbead5f1a51c70`.

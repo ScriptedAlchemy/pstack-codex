@@ -94,3 +94,9 @@ test('an unfilled worker model placeholder is rejected', () => {
   assert.equal(result.status, 1);
   assert.match(result.stderr, /must name ten lanes/);
 });
+
+test('a plan without the hourly audit cadence is rejected', () => {
+  const result = check(populatedPlan().replace('hourly audit tick', 'audit tick when remembered'));
+  assert.equal(result.status, 1);
+  assert.match(result.stderr, /Program checklist lacks "hourly audit tick"/u);
+});
