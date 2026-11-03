@@ -6,6 +6,6 @@
     "test": "node --disable-warning=ExperimentalWarning --test test/*.test.ts"
   },
   "devDependencies": {
-    "fast-check": "4.5.3"
+    "fast-check": "4.10.2"
   }
 }
