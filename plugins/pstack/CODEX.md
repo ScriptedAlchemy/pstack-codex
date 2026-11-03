@@ -31,7 +31,7 @@ timed execution; do not report a schedule as delivery-tested until it actually r
 
 During an active turn, use bounded tool waits and recheck the predicate. If scheduling is unavailable, report that limitation and save a resume capsule; do not claim a future wake is armed. Create a goal only when the user explicitly requests one. Otherwise retain the objective in the task's durable notes.
 
-Store orchestration state under a user-approved project location, default `<repo>/.codex/pstack-runs/<run-name>/`. Supply this absolute path through `ORCH_STORE` or `--store`. Never assume an agent store appears in the system prompt. On restart, read the ledger, inspect current branch/PR state, and recreate workers; old agent ids are not durable worker handles.
+Store orchestration state under a user-approved project location, default `<repo>/.codex/pstack-runs/<run-name>/`. Never assume an agent store appears in the system prompt. On restart, read the ledger, inspect current branch/PR state, and recreate workers; old agent ids are not durable worker handles.
 
 ## Mode and discovery
 

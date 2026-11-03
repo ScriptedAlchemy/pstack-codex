@@ -1,7 +1,7 @@
 [
   {
     "path": ".cursor-plugin/plugin.json",
-    "blob": "2d5accfaed9959e5a15226df48b17a59a16a4132"
+    "blob": "1295f46878218d568a037344877f0b603a887696"
   },
   {
     "path": ".gitignore",
@@ -13,7 +13,7 @@
   },
   {
     "path": "README.md",
-    "blob": "7a5037faeedcba432e1d4044099756d1fcbcdb1b"
+    "blob": "bb613a100841eb7da66b0ee0eda1a4f728d0a6dd"
   },
   {
     "path": "agents/comment-sicko.md",
@@ -89,7 +89,7 @@
   },
   {
     "path": "docs/guide/04-design.md",
-    "blob": "65862086a58780b258fdb490dcafedd75b9cce18"
+    "blob": "9da6470a919ca21ef3e4786e08c997b69b6c5255"
   },
   {
     "path": "docs/guide/05-build-and-clean.md",
@@ -97,11 +97,11 @@
   },
   {
     "path": "docs/guide/06-verify-and-ship.md",
-    "blob": "c432012d22cb1e8ba43e40163e119880518a68d3"
+    "blob": "ffcdc0d15815cf28c8f4db6230f6cba364436aea"
   },
   {
     "path": "docs/guide/07-overnight.md",
-    "blob": "dd4230d8cc242638095f648f5f3e7b5bd46f61a9"
+    "blob": "17bae40b97fcbb7a41b9d6a7b0f6285445501477"
   },
   {
     "path": "docs/guide/08-principles.md",
@@ -113,7 +113,7 @@
   },
   {
     "path": "docs/guide/10-recipes-and-pitfalls.md",
-    "blob": "b1aaf2738c6818deec6009edb9fc3526f9b95aa5"
+    "blob": "782394f891d0bcf7cdaafe2120f193261c641115"
   },
   {
     "path": "docs/guide/README.md",
@@ -149,7 +149,7 @@
   },
   {
     "path": "plugin.json",
-    "blob": "62fb31e8b272a7b0164843feb16a32aa6bb6d22e"
+    "blob": "14b42b7225231a2f01ab225df1d9d13839c6d616"
   },
   {
     "path": "skills/architect/SKILL.md",
@@ -169,7 +169,7 @@
   },
   {
     "path": "skills/arena/SKILL.md",
-    "blob": "b198b9e425c6b3e6ff01ca789b97ca5b4abb7ce2"
+    "blob": "7580c3c9a7770d81b9dd7a537d9caa7362c04279"
   },
   {
     "path": "skills/automate-me/SKILL.md",
@@ -193,7 +193,7 @@
   },
   {
     "path": "skills/create-formal-verification-skill/SKILL.md",
-    "blob": "37d73f9044b6bcc0132a0e703f70d13be5ded7c3"
+    "blob": "92f7aa4fa966b857dd7fcc994b3c59650767c878"
   },
   {
     "path": "skills/create-verification-skill/SKILL.md",
@@ -233,27 +233,11 @@
   },
   {
     "path": "skills/interrogate/SKILL.md",
-    "blob": "94946d22d8bf896bfcc2c54d363df5af3d17b4ca"
-  },
-  {
-    "path": "skills/interrogate/references/code-quality-review.md",
-    "blob": "16581250d81044c7e80fe234c4970a3f7b7fc98a"
-  },
-  {
-    "path": "skills/interrogate/references/lead-judgment.md",
-    "blob": "3b41346c9c3f5c35453d34f1c77374b7e9346aa9"
-  },
-  {
-    "path": "skills/interrogate/references/reviewer-prompt.md",
-    "blob": "ef7bff3d77c35a0af2a9947187ccee15465657f4"
-  },
-  {
-    "path": "skills/interrogate/references/rubric.md",
-    "blob": "8dab195ab840554bfe5e74e9b5ca0d9edbe9b496"
+    "blob": "169f5b478f4cb53a4c5ab6046576034b4b07cfe8"
   },
   {
     "path": "skills/ketchup-video/SKILL.md",
-    "blob": "69aa72aba763ae1836f8440d88e03e2928eb3719"
+    "blob": "c0c614288dea9f413a418064d7e7d37791dd9e5e"
   },
   {
     "path": "skills/ketchup/SKILL.md",
@@ -277,7 +261,7 @@
   },
   {
     "path": "skills/poteto-help/SKILL.md",
-    "blob": "9d68a7a72da3a9712f77cc06d4a6bead90222b95"
+    "blob": "a0604c9c4e63c7f798f19f33acd8a74ccb5b8531"
   },
   {
     "path": "skills/poteto-help/references/prompting.md",
@@ -285,11 +269,11 @@
   },
   {
     "path": "skills/poteto-help/references/recipes.md",
-    "blob": "048e0750451aa801a4cf7ed59fa9ed4624c0f1ec"
+    "blob": "cc7a4e6828f5bfc3bcbf5954876358074718f45c"
   },
   {
     "path": "skills/poteto-mode/SKILL.md",
-    "blob": "21993f546032ca37671d5f1caf39c9a82ab4fa9d"
+    "blob": "2dd5e76fde228141d3fe78b0b09ca68456b49531"
   },
   {
     "path": "skills/poteto-mode/playbooks/authoring-a-skill.md",
@@ -297,19 +281,19 @@
   },
   {
     "path": "skills/poteto-mode/playbooks/autonomous-run.md",
-    "blob": "e6b88703cf327a76bcdd424429345ac0efeca67e"
+    "blob": "af3bf11609a24020f678f859f13a65710ab67fbd"
   },
   {
     "path": "skills/poteto-mode/playbooks/autopilot-full.md",
-    "blob": "068882379d9bdc2298052e7762d67ac795715baf"
+    "blob": "bbc5b3751ad789cfbd92f8937a2e84de365509ad"
   },
   {
     "path": "skills/poteto-mode/playbooks/autopilot-stack.md",
-    "blob": "d7bdc289e045e8bc7da97b4ddfccc8d6c9ed0800"
+    "blob": "819862c8fe7b756c8571eed410a30a09625673d9"
   },
   {
     "path": "skills/poteto-mode/playbooks/babysit.md",
-    "blob": "51549ab2da11e5905342bbb3aadb93685c8ac348"
+    "blob": "14d5783d447ba3530d038c9dffa514f2492a54e0"
   },
   {
     "path": "skills/poteto-mode/playbooks/bug-fix.md",
@@ -333,15 +317,15 @@
   },
   {
     "path": "skills/poteto-mode/playbooks/multi-phase-plan.md",
-    "blob": "27e99947bd20575e2ff503dbfba985a4f0fa298e"
+    "blob": "7101aa71dbc08f2b84baa227a7bd589f800f13e8"
   },
   {
     "path": "skills/poteto-mode/playbooks/opening-a-pr.md",
-    "blob": "d729a7a06c5b67e406b081e1777114bc03b66f4a"
+    "blob": "4a92c501f184ea24392d59a9889ce2f08e8e9201"
   },
   {
     "path": "skills/poteto-mode/playbooks/orchestrate.md",
-    "blob": "4ccb24d76c5e190125cecc99d4a9b5c9eb2932d9"
+    "blob": "b6e5f5661a1e6b4778845de53f331cee3486905b"
   },
   {
     "path": "skills/poteto-mode/playbooks/pause-safely.md",
@@ -404,20 +388,8 @@
     "blob": "cd1debfa31579068dc41b8657b7de3b341be29a0"
   },
   {
-    "path": "skills/poteto-mode/scripts/orch/orch.test.ts",
-    "blob": "be8edd505b7d14c79323fd648af60f1cf1048c3f"
-  },
-  {
-    "path": "skills/poteto-mode/scripts/orch/orch.ts",
-    "blob": "14cb5139a91745a58780a81d8a1b40ef67d9504d"
-  },
-  {
-    "path": "skills/poteto-mode/scripts/orch/store.ts",
-    "blob": "a7cef5af83af9bf571753cf911c992e877aae683"
-  },
-  {
     "path": "skills/poteto-mode/scripts/package.json",
-    "blob": "d8abe49ad0eafd10d302e8c6a9a0a95c5e6fb0ef"
+    "blob": "c8839d74d9be87dc78b3af0bc6f68f935b4ecc25"
   },
   {
     "path": "skills/poteto-mode/scripts/watch-pr/cli.test.ts",
@@ -497,7 +469,7 @@
   },
   {
     "path": "skills/principle-explain-the-number/SKILL.md",
-    "blob": "1e180c14aefe49a3b2a515320398e08c3ebeb57d"
+    "blob": "3948ad34092437918f366e2cbb270e9ae31977fb"
   },
   {
     "path": "skills/principle-fix-root-causes/SKILL.md",
@@ -593,7 +565,7 @@
   },
   {
     "path": "skills/setup-pstack/SKILL.md",
-    "blob": "cb61b8d3ee5d2a1b8fa403d8b99ed8d2e18f77df"
+    "blob": "91f1127f8b14415fef9698b02a64d3d0bdef4f54"
   },
   {
     "path": "skills/sharpen/SKILL.md",
@@ -613,111 +585,1631 @@
   },
   {
     "path": "skills/statechart/SKILL.md",
-    "blob": "66670ebd1856621ef5307bb73eed09e60133212b"
+    "blob": "f5a64a8db4b8a5957ac5e76e051b1823cecd4d5e"
   },
   {
-    "path": "skills/statechart/scripts/bug-states.mjs",
-    "blob": "3c8e9f21f6046393903a5b496e65c5e93bf4727a"
+    "path": "skills/statechart/references/render.md",
+    "blob": "5ef0519d6f7ae97ef7befceaf174f94f52dd42f5"
   },
   {
-    "path": "skills/statechart/scripts/chart-edges.mjs",
-    "blob": "0f0db11dc51dbf10ab20715820861a682893789f"
+    "path": "skills/statechart/scripts/backends/cfg.ts",
+    "blob": "dec8b2f6671f2d110cd880f7af8d2c714cdf23a3"
   },
   {
-    "path": "skills/statechart/scripts/chart-parts.mjs",
-    "blob": "eaa391d4e634b096d3625337f288627afb2e3427"
+    "path": "skills/statechart/scripts/backends/mermaid.ts",
+    "blob": "327220cad69baa1d4fa5aa1cfe03f3cf9e13c133"
   },
   {
-    "path": "skills/statechart/scripts/chart-to-tla.mjs",
-    "blob": "911c58698d7abf8c459134f0112a47750d317c1c"
+    "path": "skills/statechart/scripts/backends/plain-text.ts",
+    "blob": "1ece33e8c45995493e84bc948ad613fce15481ab"
   },
   {
-    "path": "skills/statechart/scripts/compare-charts.mjs",
-    "blob": "730698be4e1dfadb4866ff5f61e6cba2b37fe6ce"
+    "path": "skills/statechart/scripts/backends/report.ts",
+    "blob": "62e2a853375a1141491ef54fed8fd0d81a1bcd3c"
   },
   {
-    "path": "skills/statechart/scripts/lib.mjs",
-    "blob": "238f1745e561aa5668cd09ec7a694836bf6b7156"
+    "path": "skills/statechart/scripts/frontends/config.ts",
+    "blob": "4f6ade5a9a74c8e74a58125dc7a5d035ea2ca36b"
   },
   {
-    "path": "skills/statechart/scripts/map-view.mjs",
-    "blob": "e7e844b6d1fd6534408e94ac7f96fd7384ca5650"
+    "path": "skills/statechart/scripts/frontends/dot.ts",
+    "blob": "003dfc89d4925c6aed3e59073b6a9414da78117b"
   },
   {
-    "path": "skills/statechart/scripts/property-loop.mjs",
-    "blob": "47bf0372f89f27251e8639445ef1716dd243ea94"
+    "path": "skills/statechart/scripts/frontends/marks.ts",
+    "blob": "9b1eda59f12861b8fb981d6046741417cd1be667"
   },
   {
-    "path": "skills/statechart/scripts/read-check.mjs",
-    "blob": "18c52b6d1447583c0d3b4e0dbd01c0ffc701e47b"
+    "path": "skills/statechart/scripts/frontends/messages.ts",
+    "blob": "e835b065e775a1b822eede5b1515d0401ce8356b"
   },
   {
-    "path": "skills/statechart/scripts/regions-chart.mjs",
-    "blob": "95d746021468883e6a4adab5d82dc34d4f2c4082"
+    "path": "skills/statechart/scripts/frontends/spec.ts",
+    "blob": "3fbe34f1a6b344c56cfd5afba3b90fe9a397c405"
   },
   {
-    "path": "skills/statechart/scripts/render.mjs",
-    "blob": "4c90c58531d8f99ccb28fa659df1e85e868e0c9c"
+    "path": "skills/statechart/scripts/frontends/trace.ts",
+    "blob": "43387c12b314c343d7a046de2fd095a3950b0026"
   },
   {
-    "path": "skills/statechart/scripts/rule-book.mjs",
-    "blob": "3ea545228f7908394f903734b40157a23565e6b4"
+    "path": "skills/statechart/scripts/frontends/value.ts",
+    "blob": "d73ddec9ee3fa6077c644625002707a96d0938a1"
   },
   {
-    "path": "skills/statechart/scripts/second-replay.mjs",
-    "blob": "1dba571c2c23d4648f0f15ffcf9359558e8de1be"
+    "path": "skills/statechart/scripts/frontends/verdict.ts",
+    "blob": "4f2ddd925332773b68918c40e62fc79a3a32571b"
   },
   {
-    "path": "skills/statechart/scripts/snapshot.mjs",
-    "blob": "ebaf35573fb2208d9f3f29aca81669602d25171c"
+    "path": "skills/statechart/scripts/frontends/view.ts",
+    "blob": "ed8a1b5f9f0b4104a901a966bdfd66f13102d5ce"
   },
   {
-    "path": "skills/statechart/scripts/spec-text.mjs",
-    "blob": "ddfc8d10c9b22dd6bae3a4e4d950384bd0033574"
+    "path": "skills/statechart/scripts/ir.ts",
+    "blob": "80fd403fe3c231b0986f239ba8c74a60b52c05f7"
   },
   {
-    "path": "skills/statechart/scripts/statechart-help.mjs",
-    "blob": "1a900fc51f985a0e9b774bfc0fc6e0c4e484ff04"
+    "path": "skills/statechart/scripts/package.json",
+    "blob": "16bd68507bac879f00d9efb90f6a5df689dbbd3a"
   },
   {
-    "path": "skills/statechart/scripts/statechart.mjs",
-    "blob": "555f10b8c83d98e7e5de07224b99cc339ba75935"
+    "path": "skills/statechart/scripts/passes/annotate.ts",
+    "blob": "7d95d4fb57311c26bbbaca42eb283421f56140e0"
   },
   {
-    "path": "skills/statechart/scripts/test/band.mmd",
-    "blob": "83af5860141f7d6ed4d0f323d1b3eef4303954ee"
+    "path": "skills/statechart/scripts/passes/label.ts",
+    "blob": "cc8c197726137a0875462702e39cd07cbf55d547"
   },
   {
-    "path": "skills/statechart/scripts/test/regions.mmd",
-    "blob": "d241e24ff73c292e5fc62a81fd7ff17c189a5354"
+    "path": "skills/statechart/scripts/passes/lift.ts",
+    "blob": "15db7deda016faee9c0da33c2c419be51e528ed6"
   },
   {
-    "path": "skills/statechart/scripts/test/statechart.test.mjs",
-    "blob": "543fe8d67e3c7f5da3d54b678a48b05c8f7de820"
+    "path": "skills/statechart/scripts/passes/loop-check.ts",
+    "blob": "7e5a3825adde46e8a625ad9e167cb0ce6b712174"
   },
   {
-    "path": "skills/statechart/scripts/test/sync.mmd",
-    "blob": "c780c2e4336925b66e79c2bd107c045c69e54355"
+    "path": "skills/statechart/scripts/passes/paths.ts",
+    "blob": "632a5c4ae6d6101c89f46803605c09b6a96f9b6f"
   },
   {
-    "path": "skills/statechart/scripts/test/upload.mmd",
-    "blob": "dcfafa73793e4475427a6897466debd40c4e3f8f"
+    "path": "skills/statechart/scripts/passes/reach.ts",
+    "blob": "d5b6a521dc970f888d615d41caf692d0f7bcb2ec"
   },
   {
-    "path": "skills/statechart/scripts/tlc-to-chart-args.mjs",
-    "blob": "a2e0a3124641af13770fd7e4dc3e76c17f1ce347"
+    "path": "skills/statechart/scripts/passes/region-check.ts",
+    "blob": "ae499230f5ba441d704386bd24df73cad3c92af7"
   },
   {
-    "path": "skills/statechart/scripts/tlc-to-chart.mjs",
-    "blob": "7aefe44be6e60425fd061d04379adb256b06f75d"
+    "path": "skills/statechart/scripts/passes/regions.ts",
+    "blob": "bb7aea062410be42c25c779ca748c2b52c3e5a82"
   },
   {
-    "path": "skills/statechart/scripts/tlc-tools.mjs",
-    "blob": "09d46de4a62173348de802643944bd54a1298e71"
+    "path": "skills/statechart/scripts/pipeline.ts",
+    "blob": "f12a2e07f6e4fe283cfd1b2fc0d3f83dd3d75758"
   },
   {
-    "path": "skills/statechart/scripts/ways-in.mjs",
-    "blob": "e94658c804f62065b7bf4c7e0ae8c6854d1f0d69"
+    "path": "skills/statechart/scripts/run.ts",
+    "blob": "4efd368e5bcd0b4ef7cf8d8cfd1e511483c720aa"
+  },
+  {
+    "path": "skills/statechart/scripts/statechart",
+    "blob": "7d3aeb8c219bf20aea4cbc321892fca9cbd582f1"
+  },
+  {
+    "path": "skills/statechart/scripts/statechart.ts",
+    "blob": "4e2967e680895875d7d5352bfe997a4c08c2d1fc"
+  },
+  {
+    "path": "skills/statechart/scripts/test/ConfigOracle.java",
+    "blob": "d916e540ba1d23733be5486ac2911252e49f81dc"
+  },
+  {
+    "path": "skills/statechart/scripts/test/chart.test.ts",
+    "blob": "ef220432d79345fc5fa36210cef6c6ae7468fb4e"
+  },
+  {
+    "path": "skills/statechart/scripts/test/charts/Braces.mmd",
+    "blob": "4cc99ed3082d412117750da757f767475daf63be"
+  },
+  {
+    "path": "skills/statechart/scripts/test/charts/Escapes.mmd",
+    "blob": "6b2de4b7aebfb644700889469c0219d10424afde"
+  },
+  {
+    "path": "skills/statechart/scripts/test/charts/Phases.mmd",
+    "blob": "1412a97ef4198500a1c730124c20e9cfc3a934f9"
+  },
+  {
+    "path": "skills/statechart/scripts/test/cli.test.ts",
+    "blob": "97b71c30c228eafd55f599375f16be4f656f20e5"
+  },
+  {
+    "path": "skills/statechart/scripts/test/config-fuzz.test.ts",
+    "blob": "88ec2d3d0b09cd85759507aaf786722add1a2cb7"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus.test.ts",
+    "blob": "8934373187b213d9be5ef6011db1893cbb8b037f"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/Counter/ChartRun.out",
+    "blob": "87dec2842dcace3f3725ab7e3570d649abb5022e"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/Counter/Counter.cfg",
+    "blob": "accc477b2e456e9cacee880aa8a579b7f2fb3f7d"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/Counter/Counter.tla",
+    "blob": "c72accbb7b5d4a0fd7302607798f1d5962156e31"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/Counter/chart.mmd",
+    "blob": "a65ea8434a27b918dd425548d1664ec02d030ab1"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/Counter/graph.dot",
+    "blob": "19ef461866782514d24f9bbe8e07a2e40fe4d5c1"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/Counter/report.md",
+    "blob": "76a07da6b47cebf9b629f0f3fe2031603fb9eff0"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/Counter/sany.out",
+    "blob": "bc0268192dd95ee0e3dd197657b324e780761cec"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/Counter/verdict-1.out",
+    "blob": "769fa7cb9a5e69a7d5820309aba8da91edab9ac9"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterAction/ChartRun.out",
+    "blob": "4d04f9bfb7af5a34b663b9f98a7c6e8e9f0ca7c8"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterAction/CounterAction.cfg",
+    "blob": "b1763a8ad02a313c1237039ad0ead0404716d5ec"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterAction/CounterAction.tla",
+    "blob": "148b1f3a0d0e7ebb30c00c164c403d6d1f2610fb"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterAction/chart.mmd",
+    "blob": "2142a4553be585c01cea18319acc580f0057f161"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterAction/graph.dot",
+    "blob": "39f2651e18efcdf3da400eb5239175e340f2e6b7"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterAction/report.md",
+    "blob": "d468ab4477bd75c9fcbb83540aebff57facceb6b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterAction/sany.out",
+    "blob": "a5c0ae2483c1a80e683adef887854fcc13d91eff"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterAction/verdict-1.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterAction/verdict-1.out",
+    "blob": "446128703357032b71fbe6c4c5e48651cebb3077"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterAction/verdict-2.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterAction/verdict-2.out",
+    "blob": "232ed26873747dc21e375b725ab4282cae09dc78"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterAction/verdict-3.out",
+    "blob": "f49ccadb2c33ec641c935b5dcce5a591a2d46048"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterDeadlock/ChartRun.out",
+    "blob": "abf573b92cd3aec2e2eeb759d954aac4912476b7"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterDeadlock/CounterDeadlock.cfg",
+    "blob": "64e80fff74246f1c3ad536ca2084e63a9ae1afe0"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterDeadlock/CounterDeadlock.tla",
+    "blob": "67f26b04c403e2b24e682be5cba8019fbc52f755"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterDeadlock/chart.mmd",
+    "blob": "9190b9fb7514f5af3275b3253e40cfd36289eabc"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterDeadlock/graph.dot",
+    "blob": "19ef461866782514d24f9bbe8e07a2e40fe4d5c1"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterDeadlock/report.md",
+    "blob": "d72af35b15cf5275490f6b8944681b1f7506858b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterDeadlock/sany.out",
+    "blob": "87c12d75a5d0cd2487d481ef0a0e83a09bbf8a13"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterDeadlock/verdict-1.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterDeadlock/verdict-1.out",
+    "blob": "fc41768fce93b978734fd3aaeb60f9ca1a6c8612"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterDeadlock/verdict-2.exit",
+    "blob": "b4de3947675361a7770d29b8982c407b0ec6b2a0"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterDeadlock/verdict-2.out",
+    "blob": "1680ce4ae6586a7d86259046260f0f06435e98b7"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterFan/ChartRun.out",
+    "blob": "fe624fd4f650a8164f527d2f9a0955774dfe3e61"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterFan/CounterFan.cfg",
+    "blob": "27e8506dbb0a6da840cffa4a848804f312bf90f3"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterFan/CounterFan.tla",
+    "blob": "f2b4e5271068fe343a9d9557b145e6c7acec7c70"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterFan/chart.mmd",
+    "blob": "045aa4218b417aec221f3ad014c56c7c8903fff9"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterFan/graph.dot",
+    "blob": "d60e23ac86f212a53dff308f4c0298fb286f1df1"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterFan/report.md",
+    "blob": "1090826acf60bd5b1f1803813e3c74ebfa33e273"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterFan/sany.out",
+    "blob": "eac7a21ab606f3d1e092b9a182658f788d94e89f"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterFan/verdict-1.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterFan/verdict-1.out",
+    "blob": "6156d07f95185eb1951650fcebde54d482389faa"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterFan/verdict-2.out",
+    "blob": "a60056632dc77ea3338584851486cc7e6be453b0"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterGuard/ChartRun.exit",
+    "blob": "78eb67cee1ab25652fe5c9e29efc173671301400"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterGuard/ChartRun.out",
+    "blob": "bc54efe7c1b7595618b41ae1358daad63cc3c251"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterGuard/CounterGuard.cfg",
+    "blob": "93c95c10ff801ffcbc5da14bae1b9f4246a21433"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterGuard/CounterGuard.tla",
+    "blob": "84b115bef2952e55814fa49d14064e3b506801c4"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterGuard/chart.mmd",
+    "blob": "11839886fb466f8059e8683c8e886471f6298795"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterGuard/graph.dot",
+    "blob": "8312469c683be164474194eb4dfa787597d95f85"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterGuard/report.md",
+    "blob": "3f37ac2326595ee790200a8b796dec46521f6dbe"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterGuard/sany.out",
+    "blob": "c057222d7b5a33880d417cef92b2bdc7f7dd6514"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterGuard/verdict-1.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterGuard/verdict-1.out",
+    "blob": "c3169f0752ff1ab06b0d0bb4b58bde9660c7dbc4"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterGuard/verdict-2.exit",
+    "blob": "78eb67cee1ab25652fe5c9e29efc173671301400"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterGuard/verdict-2.out",
+    "blob": "ea9327a80672e55ceb70989234dd4abefd724352"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterInitPast/ChartRun.out",
+    "blob": "6dab5e6f65a2328f257d7ab113577253a2c21f22"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterInitPast/CounterInitPast.cfg",
+    "blob": "18a798096dd459b718cf51c5a9a8b6d677c37044"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterInitPast/CounterInitPast.tla",
+    "blob": "dfe3125ca4355d205330148d47b6887bcdabb8c1"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterInitPast/chart.mmd",
+    "blob": "e70633f1157c80d8f09cced99b6f381ac4e48414"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterInitPast/graph.dot",
+    "blob": "5bdffe2b5caf1984f0249589f99fa929330ea93a"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterInitPast/report.md",
+    "blob": "e6c422152821af9499fca3f2b64ed94a65965618"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterInitPast/sany.out",
+    "blob": "13471a1ab7ca435f685e66df4b2e7b6e47b17f0b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterInitPast/verdict-1.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterInitPast/verdict-1.out",
+    "blob": "e55acaa87b29fecb8f0e3be3525d29848b9ac2c6"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterInitPast/verdict-2.out",
+    "blob": "ae7dfd0acb2c9ce6bcc36d8acc388c6faece36ac"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterInitPastHolds/ChartRun.out",
+    "blob": "e8295dd7cc27b793fd56269be2f3596b4433b28a"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterInitPastHolds/CounterInitPastHolds.cfg",
+    "blob": "823d31a55438107a7805ef0b92ef0d5da3f835a8"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterInitPastHolds/CounterInitPastHolds.tla",
+    "blob": "cb291f044b9b799e6bcb4e294b17a0ab47e88b43"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterInitPastHolds/chart.mmd",
+    "blob": "b57b606becb0dde9c8ff1bc6ce1835de277c5bc1"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterInitPastHolds/graph.dot",
+    "blob": "5bdffe2b5caf1984f0249589f99fa929330ea93a"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterInitPastHolds/report.md",
+    "blob": "5ad2f21648fe6caa2ebab960deeed49afcc38e5f"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterInitPastHolds/sany.out",
+    "blob": "f4c128b5395a4bcff1d52b3c10b3d6586c2c33d0"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterInitPastHolds/verdict-1.out",
+    "blob": "b8c8f34dd061f48b210e49bd5014003d902d7fad"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterInstance/ChartRun.out",
+    "blob": "bd9932f5cd0aaae9308e121b89892322d54eca7c"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterInstance/CounterInstance.cfg",
+    "blob": "a73eb3f49699de9a2c9776368d9d1d79ba498529"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterInstance/CounterInstance.tla",
+    "blob": "ad5bdcb74c40f03fc0400d1eb0ce10f1c36e8bba"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterInstance/CounterSteps.tla",
+    "blob": "1551d5ec4db346e76ef013b90cddb07dd043ecb1"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterInstance/chart.mmd",
+    "blob": "58eb5e285fcb7c32de4967a656f5a213252aa4ca"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterInstance/graph.dot",
+    "blob": "6213bdaec4dd30c1af50e173b4ce62bc87ff7b89"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterInstance/report.md",
+    "blob": "ffe2e10de17d69b211a8277cbf346d2ebb3d0e57"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterInstance/sany.out",
+    "blob": "2b24bb54b8fcb7e92a23c4dfeb8df4b897d8a0cb"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterInstance/verdict-1.exit",
+    "blob": "b1bd38b62a0800a4f6a80c34e21c5acffae52c7e"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterInstance/verdict-1.out",
+    "blob": "e880efe7092914a114d2addc76a98ba3c7b276c2"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterJump/ChartRun.out",
+    "blob": "18aedf2894414abbe939f68360d4d2f08f998022"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterJump/CounterJump.cfg",
+    "blob": "bb86e2c8cc5621168f4a4a64e4eb50d33b699237"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterJump/CounterJump.tla",
+    "blob": "9158973604d69dced60314510ad6dd39c0f9890b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterJump/chart.mmd",
+    "blob": "92d95a38f2343778641c69f500942cf1cc02146d"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterJump/graph.dot",
+    "blob": "a60662b180c48f9f3e51725c5ab87702f4325b14"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterJump/report.md",
+    "blob": "b92624593b84eb2a11cdcf0a069f3546d0f9b3f6"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterJump/sany.out",
+    "blob": "92b207093eb1484a0ef0dbb6e6b7938b14a44cc8"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterJump/verdict-1.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterJump/verdict-1.out",
+    "blob": "920247b844f89238b291c643021e2bc22a0e1a4f"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterJump/verdict-2.out",
+    "blob": "83457e1c6bde2a2e48f85714278fb6a95970aee9"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterLoop/ChartRun.out",
+    "blob": "11e7ef47867e8d2f056b1ce74d4698f698f7b0e1"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterLoop/CounterLoop.cfg",
+    "blob": "a73eb3f49699de9a2c9776368d9d1d79ba498529"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterLoop/CounterLoop.tla",
+    "blob": "51a6dd2cc62245f93dd1a8ace343475df3866b55"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterLoop/chart.mmd",
+    "blob": "9198ee16fe2f14a4541e7541a6a667fbd707b697"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterLoop/graph.dot",
+    "blob": "4c4a31e899d8897a871007d9f11673c93dfb2f94"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterLoop/report.md",
+    "blob": "db2cb8358dfb5adc37141d9f323e6ae9ceade117"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterLoop/sany.out",
+    "blob": "7fc577a326189e64706e6c33ecfa2f1503393164"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterLoop/verdict-1.exit",
+    "blob": "b1bd38b62a0800a4f6a80c34e21c5acffae52c7e"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterLoop/verdict-1.out",
+    "blob": "114d60ba3e320ef621749a47bb09812cf98b21ee"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterOrder/ChartRun.out",
+    "blob": "b99b2956ac43a76c342e94b6d2284515b8b6fc02"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterOrder/CounterOrder.cfg",
+    "blob": "cadbd94c6c11b355f17f51a61ef87099fb42d6ed"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterOrder/CounterOrder.tla",
+    "blob": "9168efe4ea204dabd327f64ee4581d4ba6c5840b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterOrder/chart.mmd",
+    "blob": "7dda491605eedca0200677f67265edecf0f25130"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterOrder/graph.dot",
+    "blob": "3943d6aa2c830224e97d65ea784d3ad22cc972a4"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterOrder/report.md",
+    "blob": "0578eb27de909c45ab5ef56d32262aa6f63fd4b4"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterOrder/sany.out",
+    "blob": "c0d4cd2165a1dcdfbb6d052d07facfb61c2e16af"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterOrder/verdict-1.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterOrder/verdict-1.out",
+    "blob": "981ed353203ceb9fda0b86c11ddc389906b89c49"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterOrder/verdict-2.exit",
+    "blob": "b4de3947675361a7770d29b8982c407b0ec6b2a0"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterOrder/verdict-2.out",
+    "blob": "8cc5e2d4f92272c7910bc77807cb340591d0ef92"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterRules/ChartRun.out",
+    "blob": "1de92f9b10debbc6ed638dd01db1de427e4ee2fe"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterRules/CounterRules.cfg",
+    "blob": "e446955693a3dfb5bcb950548396c1afc46b4241"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterRules/CounterRules.tla",
+    "blob": "5cc3ba1f1cab9531b39d144574e7ae30cfb8a663"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterRules/Moves.tla",
+    "blob": "697939d4b33ffbbab7c02b4ccc858a96e2f13c6f"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterRules/chart.mmd",
+    "blob": "83f65fd1be26e55bbaf479db4a36608012e239c2"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterRules/graph.dot",
+    "blob": "b9fbd8c57ce94daa6a09a964bfdad9420d0e54ba"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterRules/report.md",
+    "blob": "2c6b305701506ec6ed7cfd7bbaa6ebe8f282d323"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterRules/sany.out",
+    "blob": "2fa0dadff235ddb7b52eddc31d5ed37c4afde198"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterRules/verdict-1.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterRules/verdict-1.out",
+    "blob": "af93dd028ac57a23027b9970647b92bbddd9bbf4"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterRules/verdict-2.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterRules/verdict-2.out",
+    "blob": "5eb734bdabb5fdf59183e1edd29c7c40cad823dc"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterRules/verdict-3.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterRules/verdict-3.out",
+    "blob": "b1649422a90755680f382b2e3b42b96613d3b4a4"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterRules/verdict-4.out",
+    "blob": "6421d1d8fc380bc021135e68dac995ac1a303f9a"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterStart/ChartRun.out",
+    "blob": "ccb7ba9df755eddc62505f4ce73528f575106783"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterStart/CounterStart.cfg",
+    "blob": "76c3fb0615201e903353213b74b5f8c5f65647bb"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterStart/CounterStart.tla",
+    "blob": "e701a8b64009098553aa32f5ff82e2f12a07b403"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterStart/chart.mmd",
+    "blob": "ead9269e2405193a20c160011a24c15940c156ef"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterStart/graph.dot",
+    "blob": "00d34c42a93d088a1d67e48bbba8a7d1c9976123"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterStart/report.md",
+    "blob": "d565f6c8fac4d4c44c0894989e0ed01ef01ef3b1"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterStart/sany.out",
+    "blob": "e3322a3edd39e50c1b075dcffbfef599cb0b84cd"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterStart/verdict-1.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterStart/verdict-1.out",
+    "blob": "273f6a9a53fe86b3441393e9565958420c535c38"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterStart/verdict-2.out",
+    "blob": "8589bfb06807667f63069cf247c43fc8df72ffaa"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterStop/ChartRun.out",
+    "blob": "27d7d2da037fe2aa038ab9b33752c24407786a63"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterStop/CounterStop.cfg",
+    "blob": "76c3fb0615201e903353213b74b5f8c5f65647bb"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterStop/CounterStop.tla",
+    "blob": "15b1224b32f256b49bfd6a9fe099d3bcef746e6f"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterStop/chart.mmd",
+    "blob": "5b17bea12010ae2e3c2073a2cb424bc6c262ef74"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterStop/graph.dot",
+    "blob": "00d34c42a93d088a1d67e48bbba8a7d1c9976123"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterStop/report.md",
+    "blob": "3dd1d7e35d2a08892aeabe556260f984333e4123"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterStop/sany.out",
+    "blob": "70180967286510ba8ac18f497c3285e270435b38"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterStop/verdict-1.out",
+    "blob": "fd43d16c353849bb15a9126c95f8e9f2ebc5d49b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterTie/ChartRun.out",
+    "blob": "c5c8e5729b01b33a32f32f664c02f3c3ab226258"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterTie/CounterTie.cfg",
+    "blob": "e05d62cfb03aadd5d24632194775c224b7648eb1"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterTie/CounterTie.tla",
+    "blob": "48e2ebdf1ee8227606184adfdecbf13656ee7349"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterTie/chart.mmd",
+    "blob": "f5a339c11c84dc72eafe4892e263be64928792b8"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterTie/graph.dot",
+    "blob": "39f2651e18efcdf3da400eb5239175e340f2e6b7"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterTie/report.md",
+    "blob": "df2f7a667ae0700749b33217939d31216712ffd7"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterTie/sany.out",
+    "blob": "7f2ea094a143757bd4c4fa346a50009601fcd931"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterTie/verdict-1.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterTie/verdict-1.out",
+    "blob": "d86c4b795ac1ffe16898f8fd90b46c2ea5234de8"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterTie/verdict-2.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterTie/verdict-2.out",
+    "blob": "dfc61e8aa5e2b576bff3525b08a32d1187172a2d"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterTie/verdict-3.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterTie/verdict-3.out",
+    "blob": "b3deb6fe0b890afa6d59c5e6851cb1fc8fa1957a"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterTie/verdict-4.out",
+    "blob": "a0e5fe809bc05a6fdf5e689744aae1002d912909"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterTieInGraph/ChartRun.out",
+    "blob": "4175494b4970e0c51203135e076403eeffa3d734"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterTieInGraph/CounterTieInGraph.cfg",
+    "blob": "98f97b00a14215d2002d71616b1e8e838d722743"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterTieInGraph/CounterTieInGraph.tla",
+    "blob": "7716ca0a88b8fc19fac918a8f123aa9efa76cd9b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterTieInGraph/chart.mmd",
+    "blob": "190ae24a1e79e427a87e050b51271588fc12cbf9"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterTieInGraph/graph.dot",
+    "blob": "931dce5aa18499ac19d824ee13834f3d54197807"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterTieInGraph/report.md",
+    "blob": "bb60e8ae714a4f2d65b89eba4483eb8a8fc1dc13"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterTieInGraph/sany.out",
+    "blob": "ec054808242db7d1746947f95050db2e672d6639"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterTieInGraph/verdict-1.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterTieInGraph/verdict-1.out",
+    "blob": "1d977efee52a3bedbcb4873505e291a65830be4c"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterTieInGraph/verdict-2.out",
+    "blob": "a4cfefd2489f371b080eb905e83d1292869c5325"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterView/ChartRun.out",
+    "blob": "d9d16365e43bc2623a0fc99018e9592e1ca5bbf7"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterView/CounterView.cfg",
+    "blob": "14229fa59e582bab0f937afda511c5a4facd3533"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterView/CounterView.tla",
+    "blob": "7b3f3cf6543d9eb13dac49ad5f06e10152ad6279"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterView/chart.mmd",
+    "blob": "8b60a051c7a2672ab60607f4215d13dc9b690ad8"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterView/graph.dot",
+    "blob": "39f2651e18efcdf3da400eb5239175e340f2e6b7"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterView/report.md",
+    "blob": "06bc25fa1285b175be2987a91871f46c7e8e46ef"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterView/sany.out",
+    "blob": "922b7fd110fbb1ab5b4d741b0aec85f510f012eb"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterView/verdict-1.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterView/verdict-1.out",
+    "blob": "7d9e8275a5dac9783086019d7eb7440ebb32b730"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterView/verdict-2.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterView/verdict-2.out",
+    "blob": "db0dcde38843ccadc4fd3f4aa3d0ddf14da7bc74"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterView/verdict-3.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterView/verdict-3.out",
+    "blob": "e5e174109dcc9a7784798fe82ba2fcf1f30af5cf"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterView/verdict-4.out",
+    "blob": "5531c01d2d039002e3822ca5534f8cb4df7ec6fc"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/CounterView/view.mjs",
+    "blob": "2f72ecea21a746d09407a6ed9b2c8f993d40c3b7"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/DieHard/ChartRun.out",
+    "blob": "acbd2bda2bdde08c1160fd87b6435cb8cb4dae6c"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/DieHard/DieHard.cfg",
+    "blob": "cefff25119959bbef1c313fcf771d1e79657d56d"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/DieHard/DieHard.tla",
+    "blob": "52dc76c2c9f91d5c7b1b4ef763bd61e2d3959c0f"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/DieHard/chart.mmd",
+    "blob": "7fe3c0ecc8a5d58b9201106de3ae425bf2a4a37f"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/DieHard/graph.dot",
+    "blob": "fafcf3fca9f42e3feeb9511ac22fa0911268a6e4"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/DieHard/report.md",
+    "blob": "c08be40faa37f8d7df92967538faa4d1779cebc1"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/DieHard/sany.out",
+    "blob": "0149b3d9df5df9832f82e44a47ac14cd98b08b7e"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/DieHard/verdict-1.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/DieHard/verdict-1.out",
+    "blob": "20145d338d0f68089d31a288e3e93782ccf06893"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/DieHard/verdict-2.out",
+    "blob": "cd1b7f22e3d772635a1a7b01464c9578e0cc1091"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/FirstRule/ChartRun.out",
+    "blob": "f35d6c82c883997fec534d0095bff01d23e64cb8"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/FirstRule/FirstRule.cfg",
+    "blob": "5a874416408b99f75366a9c429d49c4acc73a86d"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/FirstRule/FirstRule.tla",
+    "blob": "a0e6353178bf9005d20d336821fe5a0aa1229998"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/FirstRule/chart.mmd",
+    "blob": "c364eff2917b4b5703bfa2cdc15c7d4663af55a3"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/FirstRule/graph.dot",
+    "blob": "3b0721e409983954a3a2c8e5083b2d5868446f2e"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/FirstRule/report.md",
+    "blob": "412970238c167324dbc20f86a0fbdfec60ab6255"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/FirstRule/sany.out",
+    "blob": "2a648ff2b71d24e244d9405a4fce27bb8e77d556"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/FirstRule/verdict-1.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/FirstRule/verdict-1.out",
+    "blob": "da83f3ad939d0384e671f34151ed0a15e957fbbd"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/FirstRule/verdict-2.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/FirstRule/verdict-2.out",
+    "blob": "2520b3e5904c6325ffd7369d55d0a43875af5272"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/FirstRule/verdict-3.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/FirstRule/verdict-3.out",
+    "blob": "c1514b60dc2b4dd33b8056d479f804a49f6e7d5c"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/FirstRule/verdict-4.exit",
+    "blob": "b4de3947675361a7770d29b8982c407b0ec6b2a0"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/FirstRule/verdict-4.out",
+    "blob": "e19318748b58ba7712f88de6970f970509539019"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/HiddenClock/ChartRun.out",
+    "blob": "b0c640583ba1410c84c041905e2b72ec84d8cfab"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/HiddenClock/HiddenClock.cfg",
+    "blob": "7e58ae943d9526b4d453e84238c0f5002e80948e"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/HiddenClock/HiddenClock.tla",
+    "blob": "baf36377c680a958f88fbacdf56d39038125534b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/HiddenClock/chart.mmd",
+    "blob": "78e6754ae9fdb66697644b4c719e34bfe1fb31d8"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/HiddenClock/graph.dot",
+    "blob": "1087ac95e2ce296b7fa2bf3a74eaf214b340e11a"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/HiddenClock/report.md",
+    "blob": "061c73f5500abe8c3bf1bc6e51f8eedf0dcc44d8"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/HiddenClock/sany.out",
+    "blob": "db2f8f586a001e654a27e778b36be23ea02a75e7"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/HiddenClock/verdict-1.exit",
+    "blob": "b1bd38b62a0800a4f6a80c34e21c5acffae52c7e"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/HiddenClock/verdict-1.out",
+    "blob": "52d01fbc6c2f905a6364f588f631067dd009f689"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/Login/ChartRun.out",
+    "blob": "b5e7e98aba9efd52c818d70499a0b6ea31f4be7c"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/Login/Login.cfg",
+    "blob": "514c84e641fea64cce1cfeea28b805ee80514a33"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/Login/Login.tla",
+    "blob": "453215af9946e8de2747d57029a824d3f0537c65"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/Login/chart.mmd",
+    "blob": "9733b21cc2ad5f8c4c30ac74bb77b86a4426513f"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/Login/graph.dot",
+    "blob": "229abaf8f6440dc69d0e79fabc1746c9ebe21937"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/Login/report.md",
+    "blob": "096dd7cb67a68a516293c622f314a3e38ce994d4"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/Login/sany.out",
+    "blob": "af8bc6f7975591c1f67e7aaabc0496eb0f4f2b25"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/Login/verdict-1.out",
+    "blob": "f74a91c43d6565f1bfe4538806fb9d4b78482508"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/Login/view.mjs",
+    "blob": "61b5120da1a33bd21b87f1de2ba7a32250e3aa09"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/LoginGuarded/ChartRun.out",
+    "blob": "f6221e1efee943e4564ff0263418066812ab2e02"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/LoginGuarded/LoginGuarded.cfg",
+    "blob": "b8e4128c949c670da5254ebcb0309fa5910aa969"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/LoginGuarded/LoginGuarded.tla",
+    "blob": "4c6d4d4eb94b3fafe87b51ac65b1c79d98fc33a0"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/LoginGuarded/chart.mmd",
+    "blob": "afb69d00ba56faf57c520e7c5eb155eaf669ad45"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/LoginGuarded/graph.dot",
+    "blob": "68a7023bc5227504af03abe9e7339f50072d6619"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/LoginGuarded/report.md",
+    "blob": "1f2b2ebd98e9d5ee30f701e29070259f48df740e"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/LoginGuarded/sany.out",
+    "blob": "20d5e4a5a1d7b5c705e6d50bafd997d41585b33a"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/LoginGuarded/verdict-1.out",
+    "blob": "f1f2dd15632140870ed95dd2256f87c665241a92"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/LoginGuarded/view.mjs",
+    "blob": "f47da36a6ab53eea5c987f87ed0e6a226b94cbd7"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/LoginParallel/ChartRun.out",
+    "blob": "5072b1e8bfc2cf3e18e669c9a983d7beffa188e4"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/LoginParallel/LoginParallel.cfg",
+    "blob": "4d0bd3c81bdd6b9199294c055060100f6edd035b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/LoginParallel/LoginParallel.tla",
+    "blob": "1ad1667b835bed0b3fc89578eff48faee3691553"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/LoginParallel/chart.mmd",
+    "blob": "add577ee963f5bbfa0e966c65fd02fad3d31fb0c"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/LoginParallel/graph.dot",
+    "blob": "7e46e55eada3c043ba7b1ac64f84c50aa9e8d824"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/LoginParallel/report.md",
+    "blob": "1e8c75b1b5a836feb3523eb36d5a8864809b3032"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/LoginParallel/sany.out",
+    "blob": "38297c6ffeafdf4d909c172c9b4e4bdc0e3bc2c8"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/LoginParallel/verdict-1.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/LoginParallel/verdict-1.out",
+    "blob": "c0f611bdd7ed6a99edc01f4f2acdcad3079be378"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/LoginParallel/verdict-2.out",
+    "blob": "0f5c98a6698a44ddde55a198b314a6e02ebdce7a"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/LoginParallel/view.mjs",
+    "blob": "f47da36a6ab53eea5c987f87ed0e6a226b94cbd7"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayer/ChartRun.out",
+    "blob": "21b790217edaabd9e7312162b02b6451929cb567"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayer/MediaPlayer.cfg",
+    "blob": "31322ca0f0a4e46cbe2d52f6a0ee8c1e9975cef9"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayer/MediaPlayer.tla",
+    "blob": "4e4b02d7117a0a48c336563b59eda5fbdfb16d03"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayer/chart.mmd",
+    "blob": "b75e94dd1e020a359458f3721f504147a47984b9"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayer/graph.dot",
+    "blob": "c183699297118b011e08f24f2fcb99aa526fe548"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayer/report.md",
+    "blob": "051f70750c6d96ccb9fb010ef225fd73dd0de77d"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayer/sany.out",
+    "blob": "f074d321e6d183444b3c5a1e8e58998ab8367268"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayer/verdict-1.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayer/verdict-1.out",
+    "blob": "4312101cdf93b7408aca9b28c90f61bf39cce884"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayer/verdict-2.out",
+    "blob": "f87fac119bdde872dd0729590b2b2c65bb3b13ae"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayer/view.mjs",
+    "blob": "276e21fec5f54c760b9c70cc8fdbc836f3802b9c"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayerFixed/ChartRun.out",
+    "blob": "7385b348ad153091c96f4c99f24f91746344e355"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayerFixed/MediaPlayerFixed.cfg",
+    "blob": "d1743be9fda1b1d507580dc339820dc889e99e39"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayerFixed/MediaPlayerFixed.tla",
+    "blob": "27139f152c35f996eb59f37bc8d36bbd0443bc62"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayerFixed/chart.mmd",
+    "blob": "ab1e4ef168aa403dd24b96c50b1df3e46273335c"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayerFixed/graph.dot",
+    "blob": "a5ea519beee423c2ee44369598df913db82e392f"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayerFixed/report.md",
+    "blob": "3dad98dca298694d82fcdee58650e4c50e127640"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayerFixed/sany.out",
+    "blob": "23b0edaa34642fe8b30dce09ed55f887eac47fff"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayerFixed/verdict-1.out",
+    "blob": "a919ca8c22beb3169d7054a4db37b37cbe6ee3c7"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayerFixed/view.mjs",
+    "blob": "276e21fec5f54c760b9c70cc8fdbc836f3802b9c"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayerProps/ChartRun.out",
+    "blob": "632b6fa6b928bdfbde2116ca996c3b88aa13f4a9"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayerProps/MediaPlayer.tla",
+    "blob": "4e4b02d7117a0a48c336563b59eda5fbdfb16d03"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayerProps/MediaPlayerProps.cfg",
+    "blob": "a3aa6caf6cf143933e7aeac37f679c8bfc897883"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayerProps/MediaPlayerProps.tla",
+    "blob": "7291bce507eef12b129bfe9eb3f29fa3da6cd9ad"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayerProps/chart.mmd",
+    "blob": "008a152d52c80d7be8eb5facde9c5d96ac9f444a"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayerProps/graph.dot",
+    "blob": "c183699297118b011e08f24f2fcb99aa526fe548"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayerProps/report.md",
+    "blob": "98681ff8c279450cd493e52139a93d46710f97ab"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayerProps/sany.out",
+    "blob": "3dbc0429166f6e34096f04a6fd8a2ac450f6beb4"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayerProps/verdict-1.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayerProps/verdict-1.out",
+    "blob": "b2be9190b4d72215291ab909c35d756f0d892398"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayerProps/verdict-2.out",
+    "blob": "71c88cdbabaffcf4e46d8739e5f7e5a98c90bc28"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayerProps/verdict-3.out",
+    "blob": "9add0fabc6a694d0f03c4a3c9b7af61dd98391f6"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayerProps/verdict-4.exit",
+    "blob": "b1bd38b62a0800a4f6a80c34e21c5acffae52c7e"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayerProps/verdict-4.out",
+    "blob": "4e24e1a21db8177eba11f0de96ae98db91e6861b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayerProps/verdict-5.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayerProps/verdict-5.out",
+    "blob": "f318b72fc79d215c97fa77652a4f8baa1831a594"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayerProps/verdict-6.out",
+    "blob": "68ae9cf11e110c81e419133741dec229cbf9d507"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/MediaPlayerProps/view.mjs",
+    "blob": "276e21fec5f54c760b9c70cc8fdbc836f3802b9c"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/PickWorker/ChartRun.out",
+    "blob": "23c3f60bb4b9962b0b94b6c2052e27a6fe5c8e5d"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/PickWorker/PickWorker.cfg",
+    "blob": "ebfa53e9c21e7e2fad3b714290f42040190bc57d"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/PickWorker/PickWorker.tla",
+    "blob": "914dc2b6bb0e41d4d1f4df03b5bbaf23f72d237f"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/PickWorker/chart.mmd",
+    "blob": "1d044ad68cae5ed9b4ce596b03596db86546067a"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/PickWorker/graph.dot",
+    "blob": "72e7e24b8ba253ede0685395183828211c0848e9"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/PickWorker/report.md",
+    "blob": "505b488b189ed1d344d410eae4a998fb3cbcab2d"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/PickWorker/sany.out",
+    "blob": "454e2639b0c7e821db7928fe7e7254048a7b5b42"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/PickWorker/verdict-1.out",
+    "blob": "a524316408e37b31d509f36b4c93e1a4a8b7d61a"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/Shadow/ChartRun.out",
+    "blob": "f57a6ebb1f7049a46886574ba878a872c1bd6db8"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/Shadow/Shadow.cfg",
+    "blob": "d01d1b8c8738a9a80b016301bd231be2c9bff014"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/Shadow/Shadow.tla",
+    "blob": "16204f0662e5602600f79ffa15ab5752f1b6a416"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/Shadow/ShadowLib.tla",
+    "blob": "ecdaa11f60fed1233844a259d86c14a684f492c7"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/Shadow/ShadowSub.tla",
+    "blob": "36bc01662741ca8fc3a17c2ece47b66990a652ed"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/Shadow/chart.mmd",
+    "blob": "d84b4d7f217246ceffb12c4265833e9a240f5e20"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/Shadow/graph.dot",
+    "blob": "3b0721e409983954a3a2c8e5083b2d5868446f2e"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/Shadow/report.md",
+    "blob": "2a68d874d5edf410bbccf9e4004f9741e8e2f7a6"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/Shadow/sany.out",
+    "blob": "3326567a7ca4a6600507b6dddd9b671cca50e21d"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/Shadow/verdict-1.out",
+    "blob": "8f001abc6ffcd3b0ca9b86d67c0774de2fea7ecb"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/SpacedNames/ChartRun.out",
+    "blob": "0d420bcb48ce7536207f636835cc821d05d20ff1"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/SpacedNames/SpacedNames.cfg",
+    "blob": "a0df4743315913a449f5347236c7992d06f4d9c3"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/SpacedNames/SpacedNames.tla",
+    "blob": "d25f887b04afd74046c021096cf6ba78d4bbadb6"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/SpacedNames/chart.mmd",
+    "blob": "998ab69d9a58e7f327470c8b92dd3b7133af593b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/SpacedNames/graph.dot",
+    "blob": "9b447cde43848bde6ca52f8cdbb7aa4bc9aba71a"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/SpacedNames/report.md",
+    "blob": "88410eb6b4ab158b3b1c6053cd138f2bc55fa88b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/SpacedNames/sany.out",
+    "blob": "046371b2720c68a2d4531bfb67a71d89db5bfc62"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/SpacedNames/verdict-1.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/SpacedNames/verdict-1.out",
+    "blob": "c0d2006acec6da3a54ac5af8535c94a2fd3e1aa0"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/SpacedNames/verdict-2.exit",
+    "blob": "b4de3947675361a7770d29b8982c407b0ec6b2a0"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/SpacedNames/verdict-2.out",
+    "blob": "13add5fd5e487dc64177b972bc5b36072fb305f9"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TwoPhase/ChartRun.out",
+    "blob": "5211d3384f1d1f565ed6fdeea5619d85e1cb63d6"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TwoPhase/TwoPhase.cfg",
+    "blob": "bbecf5002218920224d95830c738117990045ccf"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TwoPhase/TwoPhase.tla",
+    "blob": "e7504b7bfe17a37b79f4af00d1d2f715ddc21899"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TwoPhase/chart.mmd",
+    "blob": "0cb65843c51dd8aab620f8a5291ee74f20219880"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TwoPhase/graph.dot",
+    "blob": "66cb1a2d55f88ac2f3ee32231a5a724b0c128e96"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TwoPhase/report.md",
+    "blob": "5319d1a992f76c36161e2606ddd6e3c7c7263ef8"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TwoPhase/sany.out",
+    "blob": "291ac638280d2fb145633f1fdd0acdf82846776d"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TwoPhase/verdict-1.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TwoPhase/verdict-1.out",
+    "blob": "65bace05d6847bba05ebb0bd2056f664024a0f4c"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TwoPhase/verdict-2.out",
+    "blob": "4536a30bb05e1b98a49194b123cbd2caec642f41"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TwoPhase/view.mjs",
+    "blob": "c8c0cce069ad756075a46d67f6f2a90b8874113d"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TwoPhaseFixed/ChartRun.out",
+    "blob": "52bd87a04b4afff4cc7c8f11b6b5100da87ba4bd"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TwoPhaseFixed/TwoPhaseFixed.cfg",
+    "blob": "bbecf5002218920224d95830c738117990045ccf"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TwoPhaseFixed/TwoPhaseFixed.tla",
+    "blob": "9cec1f87ca23424fea63685d010c729e3bb494da"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TwoPhaseFixed/chart.mmd",
+    "blob": "78ae397f0115b2897616148c2675a1d40f77cc7e"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TwoPhaseFixed/graph.dot",
+    "blob": "f79b82c8e815ec41128056e93c0517449fca3e2c"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TwoPhaseFixed/report.md",
+    "blob": "5b007b5a6bbbb471ada6cbfe11ece1a7b4ddf258"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TwoPhaseFixed/sany.out",
+    "blob": "3926f23e49a5e4a375a6c1af3e63eb185c3d56f1"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TwoPhaseFixed/verdict-1.out",
+    "blob": "790d0918a63648d639a77e1b701e696c79c2db3d"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TwoPhaseFixed/view.mjs",
+    "blob": "c8c0cce069ad756075a46d67f6f2a90b8874113d"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TypeGuard/ChartRun.exit",
+    "blob": "dd475631baeff3ce652b97d921c1cc43c917b9e2"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TypeGuard/ChartRun.out",
+    "blob": "51681e080fc79b3a5f47675082754ad3e2daa727"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TypeGuard/TypeGuard.cfg",
+    "blob": "5c621b4371370780884e4fdef9d4a70266116b76"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TypeGuard/TypeGuard.tla",
+    "blob": "efb5952f04091e0f6120da8853540baf90698ddb"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TypeGuard/chart.mmd",
+    "blob": "68f61ab9012738d1ca7d6ee4bd7a13ef72f6c413"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TypeGuard/graph.dot",
+    "blob": "1ef8e69e9d7164078e5ec8ef89f83d01b2902476"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TypeGuard/report.md",
+    "blob": "014071988b3d273e6e80bc02ec4d981029c6f501"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TypeGuard/sany.out",
+    "blob": "18f6d2a04af169ad1065b59e625df7275433fc2e"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TypeGuard/verdict-1.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TypeGuard/verdict-1.out",
+    "blob": "1e9be9502f219b810c9b0e46c46dfa328e6bf6a0"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TypeGuard/verdict-2.exit",
+    "blob": "dd475631baeff3ce652b97d921c1cc43c917b9e2"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/TypeGuard/verdict-2.out",
+    "blob": "0e682f17a7839bb0f16641e45a630b1a7615eccd"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/UserNoDeadlock/ChartRun.out",
+    "blob": "ea07460f3c120ec854186a51c2246719ec07a575"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/UserNoDeadlock/UserNoDeadlock.cfg",
+    "blob": "86617d00fb7f53ebc2eee4bd5f413bc2d1d2cf94"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/UserNoDeadlock/UserNoDeadlock.tla",
+    "blob": "e18662ad543ab0239cb6257fdde68955b45e8d9f"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/UserNoDeadlock/chart.mmd",
+    "blob": "539790a87bab5bd8ba8d1d150af613264fc516ae"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/UserNoDeadlock/graph.dot",
+    "blob": "3b0721e409983954a3a2c8e5083b2d5868446f2e"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/UserNoDeadlock/report.md",
+    "blob": "31274731ca2f0c34b505b9e77d22b8e7b94fae62"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/UserNoDeadlock/sany.out",
+    "blob": "a3c622cb4c7bba0d9994f290bc036e1da35220c2"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/UserNoDeadlock/verdict-1.exit",
+    "blob": "48082f72f087ce7e6fa75b9c41d7387daecd447b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/UserNoDeadlock/verdict-1.out",
+    "blob": "3f12e86b80f1c5f76374b3b445e758355987f22b"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/UserNoDeadlock/verdict-2.exit",
+    "blob": "b4de3947675361a7770d29b8982c407b0ec6b2a0"
+  },
+  {
+    "path": "skills/statechart/scripts/test/corpus/UserNoDeadlock/verdict-2.out",
+    "blob": "972408774099989024edb827f6a1b6f37d8ba385"
+  },
+  {
+    "path": "skills/statechart/scripts/test/differential.test.ts",
+    "blob": "c6aff9cadcc724202d7308a93fe2e17cc9aa64f4"
+  },
+  {
+    "path": "skills/statechart/scripts/test/grid/Grid.cfg",
+    "blob": "d0ee570affdd4f5c4a26cff74d7fcace15898db1"
+  },
+  {
+    "path": "skills/statechart/scripts/test/grid/Grid.tla",
+    "blob": "362afc474250b6d8892d7feb5b553bca3dc5d9ee"
+  },
+  {
+    "path": "skills/statechart/scripts/test/grid/sany.out",
+    "blob": "79e7f1243077292f954650ba757ca13f5565fee1"
+  },
+  {
+    "path": "skills/statechart/scripts/test/java.ts",
+    "blob": "b6634ad7ac998851cbce400bf5a52b37ee96ea80"
+  },
+  {
+    "path": "skills/statechart/scripts/test/labels.ts",
+    "blob": "a3d149984e53558e8b6a59dd994cdbd28487aa2e"
+  },
+  {
+    "path": "skills/statechart/scripts/test/messages.test.ts",
+    "blob": "61af006968a6e9c2dc359c8b5859a1238b9e56cb"
+  },
+  {
+    "path": "skills/statechart/scripts/test/pipeline.test.ts",
+    "blob": "81a5056a37276e38bb4f68993378a82fb55036f5"
+  },
+  {
+    "path": "skills/statechart/scripts/test/plain-tlc.test.ts",
+    "blob": "434e25612db133034c5a9f7e04965906488ef01c"
+  },
+  {
+    "path": "skills/statechart/scripts/test/render.test.ts",
+    "blob": "5309a92648b950554381f5adecacac161bee3e28"
+  },
+  {
+    "path": "skills/statechart/scripts/test/tlc-out.test.ts",
+    "blob": "7f27d04ee195e05d0ccea6c9e024a7b2890fde45"
+  },
+  {
+    "path": "skills/statechart/scripts/test/tlc.ts",
+    "blob": "f659423d24c489616168096695ecfde1714bf45d"
+  },
+  {
+    "path": "skills/statechart/scripts/tsconfig.json",
+    "blob": "9b16905d0a049715f942bdbe4bf3a3a80be02bad"
+  },
+  {
+    "path": "skills/statechart/scripts/worker.ts",
+    "blob": "9559314668f6573e17db7c278d05f5776b235ebc"
   },
   {
     "path": "skills/swarm/SKILL.md",

@@ -8,3 +8,4 @@ __pycache__/
 !.env.example
 .codex/pstack-runs/
 work/
+plugins/pstack/skills/statechart/scripts/test/**/states/
