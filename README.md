@@ -55,9 +55,9 @@ Install the Bun test dependencies:
 ```sh
 cd plugins/pstack/skills/poteto-mode/scripts
 bun install --frozen-lockfile
-bun test orch watch-pr check-plan.test.ts
+bun test watch-pr
 bun run typecheck
-node --test check-plan.test.mjs worktree-audit.test.mjs
+node --test worktree-audit.test.mjs
 ```
 
 Before reinstalling a modified local plugin, use Codex's `plugin-creator` skill cachebuster/reinstall flow; then run `./scripts/install.sh` and start a new task. Keep the published version updated when shipping changes so existing installations do not reuse stale caches.
@@ -78,4 +78,4 @@ The audit fetches upstream Git objects and prints pstack-only changes since the 
 
 ## License and attribution
 
-MIT. Original pstack copyright © 2026 Lauren Tan; original license is retained in [LICENSE](LICENSE) and the plugin. Codex adaptation changes are distributed under the same license. Upstream version: 0.15.36, source commit `236e5481d05cbadc315b374a5de54971858c27bb`.
+MIT. Original pstack copyright © 2026 Lauren Tan; original license is retained in [LICENSE](LICENSE) and the plugin. Codex adaptation changes are distributed under the same license. Upstream version: 0.15.46, source commit `0b46ec399d55f2829e88822998f53b84944837d3`.

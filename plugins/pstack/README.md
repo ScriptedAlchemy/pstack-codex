@@ -30,7 +30,7 @@ two steps:
 
 new here? the [pstack guide](./docs/guide/README.md) walks you through a first real task, from setup and prompting through verification and overnight runs. stuck, or unsure which skill fits? ask [`$poteto-help`](./skills/poteto-help/SKILL.md).
 
-that's it. the other skills are situational; the mode skill uses them as needed. out of the box, fast code goes to gpt-6-luna, exploration to gpt-6.1-sol, tooling review to gpt-6.1-sol, and the hardest judgment to gpt-6-astra. [`$setup-pstack`](./skills/setup-pstack/SKILL.md) changes any role.
+that's it. the other skills are situational; the mode skill uses them as needed. out of the box, code delegates (feature, refactoring, bug fix, perf, hillclimb), prose, and judgment go to gpt-6-astra at xhigh, and no role runs above xhigh. the default panel is gpt-6-astra / gpt-6.1-sol / gpt-6-luna. [`$setup-pstack`](./skills/setup-pstack/SKILL.md) changes any role.
 
 ## usage
 
@@ -38,7 +38,7 @@ use [`$poteto-mode`](./skills/poteto-mode/SKILL.md) at the start of a task. it r
 
 ### just use [`$poteto-mode`](./skills/poteto-mode/SKILL.md)
 
-this skill is the main shortcut. i use it whenever i need the agent to do rigorous engineering work. it comes with twenty-three playbooks:
+this skill is the main shortcut. i use it whenever i need the agent to do rigorous engineering work. it comes with twenty-two playbooks:
 
 ```
 $poteto-mode this pr has a subtle bug where the scroll drifts every 750ms even when idle. repro
@@ -51,7 +51,7 @@ morning.
 ```
 
 <details>
-<summary>the twenty-three playbooks</summary>
+<summary>the twenty-two playbooks</summary>
 
 | playbook | for |
 |---|---|
@@ -70,7 +70,6 @@ morning.
 | [babysit](./skills/poteto-mode/playbooks/babysit.md) | drive a pr or a stack to merge-ready: conflicts, review threads, ci. |
 | [shipping](./skills/poteto-mode/playbooks/shipping.md) | independently verify a green stack, then land the contiguous verified run bottom-up through github by default or origin when available. |
 | [autonomous run](./skills/poteto-mode/playbooks/autonomous-run.md) | drive a long task to completion without stopping. |
-| [orchestrate](./skills/poteto-mode/playbooks/orchestrate.md) | a standing project handed to one coordinator chat: multi-day, many stacked prs, fleets of subagents. |
 | [autopilot-full](./skills/poteto-mode/playbooks/autopilot-full.md) | run independent prs to merged with one owner per pr. a swarm verifies each code-ready head, and every later change to the patch gets a fresh check. |
 | [autopilot-stack](./skills/poteto-mode/playbooks/autopilot-stack.md) | autopilot-full without the merge. build and verify prs for the operator to review and land, stacking a pr only on a pr it builds on. |
 | [session pickup](./skills/poteto-mode/playbooks/session-pickup.md) | resume or take over a prior agent's in-flight work. |
@@ -97,7 +96,7 @@ Ask Codex to use poteto-mode throughout the task. This is a standing task instru
 
 ## skills
 
-[`$poteto-mode`](./skills/poteto-mode/SKILL.md) runs most of these for you when a step needs them (`how`, `why`, `architect`, `arena`, `swarm`, `interrogate`, `unslop`, `no-comments`, `technical-writing`, `tdd`, and the principles). the table below is for when you want one directly:
+[`$poteto-mode`](./skills/poteto-mode/SKILL.md) runs most of these for you when a step needs them (`why`, `architect`, `arena`, `swarm`, `interrogate`, `unslop`, `no-comments`, `technical-writing`, `tdd`, and the principles). the table below is for when you want one directly:
 
 ```
 $how do we cancel runs? do we have an n+1 when we look up every run to cancel?
@@ -117,7 +116,7 @@ $interrogate review this pr.
 | [`$benchmark-checklist`](./skills/benchmark-checklist/SKILL.md) | you need to vet a measured performance number before acting on it. |
 | [`$poteto-mode`](./skills/poteto-mode/SKILL.md) | default entry point for any non-trivial task. |
 | [`$how`](./skills/how/SKILL.md) | you want a walkthrough of how a subsystem works. |
-| [`$why`](./skills/why/SKILL.md) | you want to know why something was built this way. discovers available MCPs at run time and queries each evidence category in parallel (source control, issue tracker, long-form docs, real-time chat, infra observability, error tracking, analytics warehouse). |
+| [`$why`](./skills/why/SKILL.md) | you want to know why something was built this way. answers from the record, not the code: the commits and pr discussions that introduced it and each later change, and other sources when that trail is thin. cites what the authors wrote, marks its own inferences, and says what the record does not answer. |
 | [`$recall`](./skills/recall/SKILL.md) | you're starting or resuming work and want your recent context on a topic rebuilt from your own chat history and the shared record, handed back as a tight current-state brief. |
 | [`$ketchup`](./skills/ketchup/SKILL.md) | Understand what changed in this chat, with visuals and every pending decision explained. |
 | [`$ketchup-video`](./skills/ketchup-video/SKILL.md) | you want the `$ketchup` catch-up as a short subtitled video of slides, with the calls waiting on you as text under it. |
@@ -144,7 +143,7 @@ $interrogate review this pr.
 | [`$bro`](./skills/bro/SKILL.md) | you want the last message restated in plain human language, no jargon. |
 | [`$technical-writing`](./skills/technical-writing/SKILL.md) | layered doc standard (Diátaxis + Google developer style + STE + Global English) for docs, RFCs, readmes, PR descriptions, commit messages. |
 | [`$in-your-own-words`](./skills/in-your-own-words/SKILL.md) | you want the agent to play back your goal and the problem before it starts. runs only when you type `$in-your-own-words`. |
-| [`$sharpen`](./skills/sharpen/SKILL.md) | you want a prompt made deeper, not bigger, before you send it: what a top professional would do that you didn't ask for, the raw material they'd start from, their methods and tools, and an outside check that the result is right. hands back the rewritten prompt and leaves your choices open. doesn't do the task. runs only when you type `$sharpen`. |
+| [`$sharpen`](./skills/sharpen/SKILL.md) | you want a prompt made deeper, not bigger, before you send it: what a top professional would do that you didn't ask for, the raw material they'd start from, their methods and tools, and an outside check that the result is right. hands back the rewritten prompt, which asks the agent to prototype any choice an experiment can settle and leaves product and preference choices to you. doesn't do the task. runs only when you type `$sharpen`. |
 | [`$create-formal-verification-skill`](./skills/create-formal-verification-skill/SKILL.md) | tests can't reach the case that breaks a race, retry, state machine, parser, or unsafe code. verifies one property with the tool that fits and generates a project-local skill to recheck it on every change. |
 | [`$maintain-formal-verification-skill`](./skills/maintain-formal-verification-skill/SKILL.md) | code your formal verification covers has changed since it was last checked. updates the model, harness, or properties to match the code, reruns, and says whether each failure is drift in the verification or a bug in the code. |
 | [`$statechart`](./skills/statechart/SKILL.md) | someone who owns the behavior needs to see it, not read a spec. checks a tla+ model, draws what the user sees as a mermaid statechart, marks each state that breaks a rule, and gives the shortest path to each one. |
@@ -260,7 +259,7 @@ type [`$automate-me`](./skills/automate-me/SKILL.md). it mines your recent trans
 
 models are configurable too. type [`$setup-pstack`](./skills/setup-pstack/SKILL.md). it writes `~/.codex/pstack-models.md`, which delegating skills read before spawning agents. absent roles keep their defaults.
 
-when a default changes, a rule written before the change still pins the old default. delete those role lines, or delete the file, then run `$setup-pstack` again. a rerun preserves configured models, lists, and inheritance aliases unless you choose a replacement.
+when a default changes, a rule written before the change still pins the old default until you run `$setup-pstack` again. that run replaces the old defaults it recognizes and keeps any other role value, including lists and inheritance aliases. to drop a pin it does not recognize, delete that role's line or the file first.
 
 ## automations
 

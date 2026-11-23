@@ -6,7 +6,6 @@ cd "$repo_root"
 node scripts/check-pstack-docs.mjs
 node --test \
   tests/docs.test.mjs \
-  plugins/pstack/skills/poteto-mode/scripts/check-plan.test.mjs \
   plugins/pstack/skills/poteto-mode/scripts/worktree-audit.test.mjs \
   plugins/pstack/skills/make-bot-ui/scripts/bridge.test.mjs \
   plugins/pstack/automations/benny/scripts/ledger.test.mjs \
@@ -51,5 +50,5 @@ if [[ ! -d node_modules ]]; then
   echo 'Run bun install --frozen-lockfile in plugins/pstack/skills/poteto-mode/scripts first.' >&2
   exit 1
 fi
-bun test watch-pr check-plan.test.ts
+bun test watch-pr
 bun run typecheck

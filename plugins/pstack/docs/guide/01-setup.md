@@ -25,9 +25,9 @@ $setup-pstack
 
 [`$setup-pstack`](../../skills/setup-pstack/SKILL.md) reads the models exposed by the current Codex host, asks for a reasoning budget, shows each role, and writes `~/.codex/pstack-models.md`.
 
-Defaults use `xhigh`, matching the `large` budget. `unlimited` raises each real model to its highest host-supported effort, up to `max`; `medium` and `small` choose `high` and `medium`. Unsupported tiers use the highest supported effort at or below the target. Existing model choices and inheritance aliases stay intact.
+The defaults are the same as the `large` budget. Code, prose, and judgment run on `gpt-6-astra` at `xhigh` reasoning, and the review panels and swarm workers run at `high`, except the panels' `gpt-6-luna` seat, which stays at `xhigh`. No role runs above `xhigh`. `medium` lowers each role one level and `small` lowers it two, and both spend fewer tokens. Unsupported tiers use the highest supported effort at or below the target. Existing model choices and inheritance aliases stay intact.
 
-You only override what you care about. A role with no line in the rule keeps the skill's default. To restore a default, delete that role's line. A rerun of `$setup-pstack` preserves configured role values, including lists and inheritance aliases, unless you choose a replacement. An existing file can pin earlier defaults; delete the corresponding role lines to adopt the current Codex defaults. Setup drops retired role lines and reports them before writing.
+You only override what you care about. A role with no line in the rule keeps the skill's default. To restore a default, delete that role's line. A rerun of `$setup-pstack` preserves configured role values, including lists and inheritance aliases, unless you choose a replacement. When a default changes, a rule written before the change still pins the old default until you run `$setup-pstack` again. That run replaces the old defaults it recognizes, tells you which, and keeps your other choices. To drop a pin it does not recognize, delete that role's line or the file first. Setup drops retired role lines and reports them before writing.
 
 You might be wondering what happens if you use Auto. Set a role to `inherit-parent` or `auto` and pstack omits the subagent `model` field, so the subagent inherits your parent chat model. Both values mean the same thing, and neither is a model slug. For a panel role the value is a list, and one subagent runs per entry, so the list length sets the panel size. Setup also configures `swarm workers`, the default model for every `$swarm` worker unless a race names a model for each arm.
 
@@ -58,7 +58,7 @@ Pick something real but small, and describe it the way you'd describe it to a co
 $poteto-mode add a --json flag to this command. text output stays byte-identical. verify both.
 ```
 
-Watch the todo list. Its first items are the matched playbook's steps copied in, the Feature playbook for this prompt. If `$poteto-mode` skips a step, the step stays in the list with `skip: <reason>`, so you can see what it chose not to do.
+Watch the todo list. Its first items are the matched playbook's steps copied in, the Feature playbook for this prompt.
 
 For continued use, ask Codex to follow poteto-mode throughout this task. Record that instruction in resume notes. No Cursor-style sticky-mode registration is installed.
 

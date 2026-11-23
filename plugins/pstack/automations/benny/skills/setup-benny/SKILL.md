@@ -34,7 +34,6 @@ Verify that a Codex marketplace exposes pstack and that `codex plugin list` repo
 
 Verify in a fresh session rooted in the target repository; ask the user to open one if needed. Verify that these shared pstack skills resolve:
 
-- `how`
 - `why`
 - `tdd`
 - `unslop`
