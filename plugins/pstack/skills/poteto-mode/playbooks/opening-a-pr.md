@@ -4,33 +4,8 @@ Pick reasoning effort for the job under the Subagents section of **poteto-mode**
 
 Invoked at the end of every other playbook.
 
-**Worktree.** Inspect the current branch and dirty state first. Codex subagents share the host workspace; spawning does not create isolation. Give each concurrent writer an explicitly created worktree and distinct branch at the intended base, and pass the exact absolute directory in its brief. Preserve unrelated edits in place. If the task needs current uncommitted changes, keep one writer in that checkout or copy only the authorized patch into an isolated worktree after inspecting it. Do not reset, discard, stash, or rewrite user work merely to obtain a clean tree. Reconcile tangled state from evidence, and ask when preserving it conflicts with the requested change.
+Work from a git worktree off trunk, and keep unrelated work out of it. Codex subagents share the host workspace, so give each concurrent writer its own explicit worktree and branch, and never reset, discard, or stash user work to get a clean tree. Rebase into small, landable commits. Run a focused diff cleanup pass over the diff before commit.
 
-**Commits.** Commit liberally. Rebase into small, ordered commits before opening PRs. Each commit is a future PR: landable, ordered to tell the story. Amend when the fix belongs in a just-made commit. New commit when separable. Commit bodies don't restate the subject.
+Title: `type(scope): subject`, naming a real symbol when one carries the change. Body: a one-minute briefing under 40 lines with these `##` headings in order, dropping empty ones: `## Why`, `## What changed`, `## Scope`, `## Tradeoffs` (only rejected alternatives a reviewer would otherwise ask about), `## Blast Radius`, `## Verification`.
 
-**PRs.** Run a focused diff cleanup pass over the diff before commit. Run `$no-comments` before review. Write every PR title, PR description, and commit body with `$technical-writing`, then apply `$unslop`. Apply every technical-writing layer except Diátaxis. Use one word for each action, keep articles, and avoid `-ing` when a plain verb works.
-
-**Titles.** Conventional Commits `type(scope): subject`, no trailing period. Type such as `feat`, `fix`, `docs`, `refactor`, `test`, `chore`, or `perf`. Scope is the area, such as `pstack` or `poteto-mode`. Subject is short, imperative, and names a real symbol when one carries the change, for example `fix(pstack): retarget opening-a-pr babysit trigger`.
-
-**Descriptions.** The PR body is a one-minute briefing, not a lab notebook, for a reviewer who has the diff. It says why the change exists, what it leaves out, what it could break, and how you proved it works. Write short, simple sentences with few identifiers, no walls of text. The body becomes the squash commit body, so keep that commit under about 40 lines. Use `##` headings, not bold lead-ins, in this order, and drop a section with nothing to say:
-
-- `## Why`: the problem and approach, 1–3 short sentences. No SHAs, rebase genealogy, or "based on main" preamble.
-- `## What changed`: 1–3 short bullets. Name a real symbol or path only when it carries the change. Name both sides of a rename or retarget.
-- `## Scope`: always. 1–3 short items on what it covers and what it deliberately leaves out (a follow-up, a known gap). No symbols, paths, or file-by-file essay.
-- `## Tradeoffs`: only rejected alternatives a reviewer would otherwise ask about. Skip when there was no real choice.
-- `## Blast Radius`: 1–2 sentences on who or what it touches and why that is safe or risky. If main is red, state the cost of leaving it red.
-- `## Verification`: 1–3 bullets, each a real run path and its outcome. Perf: one primary number with its unit, `before → after`, and a link to the arena or swarm directory for the rest. No sample-size methodology, swarm recitals, or metric tables.
-
-After the sections, attach videos or screenshots when they prove a claim. Full SHAs, swarm or arena lane recitals, lever-correction essays, file-by-file checklists, and "CLEAN" verdicts go in a linked artifact, not the body.
-
-**Forge.** Resolve the forge before the first PR operation and keep that choice for create, edit, view, watch, and merge. GitHub CLI (`gh`) is the default. If `command -v origin` succeeds and Origin can resolve the repository, prefer `origin pr ...`. If Origin is absent or cannot resolve the repository, stay on `gh` and record the fallback. Do not require Graphite (`gt`).
-
-**Built-in PR tool.** Prefer a host-provided PR tool for the create, edit, retarget, or ready operations it actually supports. Read its schema and preserve any host tracking it supplies. Use the resolved forge for unsupported operations. After creating a PR through either path, attach it to the current Codex task through the host artifact tool when available.
-
-**Size and stacks.** Prefer narrow, independently landable PRs. A stack is a base-branch chain: the root targets trunk, and each child rebases onto its parent's exact tip and targets that branch. Use the built-in PR tool for supported creation and retargeting operations, otherwise the resolved forge (`origin pr create --status open --base <parent-branch>` or `gh pr create --base <parent-branch>`). Branch from trunk for independent work. Rebase on trunk before substantial stack work.
-
-**Readiness.** Unless the user requests a draft, open the PR ready. With Origin, pass `--status open`; with `gh`, omit `--draft`. Other PR tools must be checked against their actual schemas, not assumed to accept a draft flag. If an unintentionally drafted PR needs to become ready, use the selected forge's ready operation. Re-read the PR before referring to its status.
-
-**Babysit.** Opening a PR does not start a babysit. Post the URL and keep building. Finish the phase or stack first. Run a separate babysit pass only when the user asks for one after the whole stack exists. A babysit for each new PR stalls the build and spends checks on commits later waves restart. Push back when feedback drifts from intent.
-
-A subagent that opens a PR runs a focused diff cleanup pass and `$no-comments`. It posts the URL and returns to the parent without babysitting, unless it owns Autopilot-full or Autopilot-stack. That owner's brief authorizes the babysit loop: start it after the code-ready report and report merge-ready. The whole-stack waiting rule does not apply to that owner.
+Stack follow-ups by base branch. Open PRs ready, through a host-provided PR tool when it supports the operation, checked against its actual schema. Without one, use `gh pr create` without `--draft`, or `origin pr create --status open` when Origin's CLI resolves the repository. Opening a PR does not start a babysit.

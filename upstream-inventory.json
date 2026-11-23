@@ -1,7 +1,7 @@
 [
   {
     "path": ".cursor-plugin/plugin.json",
-    "blob": "1295f46878218d568a037344877f0b603a887696"
+    "blob": "b1668706ece3a209ceb1913ad469701384dfafdd"
   },
   {
     "path": ".gitignore",
@@ -13,15 +13,15 @@
   },
   {
     "path": "README.md",
-    "blob": "bb613a100841eb7da66b0ee0eda1a4f728d0a6dd"
+    "blob": "e9d39938a4f7b156e1ecfec1fa809d84aff61f52"
   },
   {
     "path": "agents/comment-sicko.md",
-    "blob": "209e3704dfa75022060c936bd3f3362fa3bbe254"
+    "blob": "14c2402f3d8c81b39d75747d6eb892f343e6a903"
   },
   {
     "path": "agents/poteto-agent.md",
-    "blob": "e1d2df2e8c3c4954b87ee1b29655c898bc7ee699"
+    "blob": "801b01c36067cdfb8bed8bc256bf9307fd7e22b1"
   },
   {
     "path": "assets/logo.png",
@@ -29,7 +29,7 @@
   },
   {
     "path": "automations/benny/FOR_AGENTS.md",
-    "blob": "e732156e9b88b463e4a40c0f51596bca4aedcdb4"
+    "blob": "04cb10f5a21dcc33e9c5238b13fb92049c15810b"
   },
   {
     "path": "automations/benny/README.md",
@@ -37,7 +37,7 @@
   },
   {
     "path": "automations/benny/skills/reproduce-and-fix-issues/SKILL.md",
-    "blob": "effa5f0a38d2cfe7d948a71ff51827e2e2017257"
+    "blob": "4217748c59f599c4763a0f436ad8a123f6ce3681"
   },
   {
     "path": "automations/benny/skills/reproduce-and-fix-issues/references/control-adapter.md",
@@ -53,11 +53,11 @@
   },
   {
     "path": "automations/benny/skills/setup-benny/SKILL.md",
-    "blob": "b05c26f4d4a39c16559f5ef2bbdd380adc923fda"
+    "blob": "8e65a6c8c6cafdf257148fb3c8a1699e02e12c07"
   },
   {
     "path": "automations/benny/skills/triage-issue-reports/SKILL.md",
-    "blob": "d691672d00fb8f8f07fc17290d00ae49d1fd119b"
+    "blob": "93c138d2378cff1cdc4f8a9c01e651eb627b626c"
   },
   {
     "path": "automations/benny/skills/triage-issue-reports/references/routing.example.md",
@@ -77,31 +77,31 @@
   },
   {
     "path": "docs/guide/01-setup.md",
-    "blob": "2c2ef341357ea7c39c8b831ee8c8669b17e85475"
+    "blob": "c5813550d4e8fa8a844a9dd557307c8f7c0e2891"
   },
   {
     "path": "docs/guide/02-poteto-mode.md",
-    "blob": "89c594b3eb4fe53ef4a6b12a93e29dfde0bd337a"
+    "blob": "5b78906907a6cf73c876b0eb2ecd9f0b3a7ffe33"
   },
   {
     "path": "docs/guide/03-understand.md",
-    "blob": "e26661f913e2ba31a0f043df3ede772461fd6a96"
+    "blob": "ee23324b363908fce4c0cbbf6253a11773e6e42b"
   },
   {
     "path": "docs/guide/04-design.md",
-    "blob": "9da6470a919ca21ef3e4786e08c997b69b6c5255"
+    "blob": "4c5ebc27ca7f6f9b481a9027a9e99b720b8aa999"
   },
   {
     "path": "docs/guide/05-build-and-clean.md",
-    "blob": "dbadc3d41294ab2cc3cde04f96b861dd294e496e"
+    "blob": "ce191d1150b567e96d5487de5af8b4132780b171"
   },
   {
     "path": "docs/guide/06-verify-and-ship.md",
-    "blob": "ffcdc0d15815cf28c8f4db6230f6cba364436aea"
+    "blob": "8ee5ca6c5b0043244a9f1795d09fb071d5f91908"
   },
   {
     "path": "docs/guide/07-overnight.md",
-    "blob": "17bae40b97fcbb7a41b9d6a7b0f6285445501477"
+    "blob": "3f9ee8bdde67b1baa302f85e2ff0b395c05de7cc"
   },
   {
     "path": "docs/guide/08-principles.md",
@@ -109,11 +109,11 @@
   },
   {
     "path": "docs/guide/09-make-it-yours.md",
-    "blob": "8d1c4b4f951bbb203ff1288e02ce91e8b6832a43"
+    "blob": "92ed39b6ebf9637e70052de035330a890c0d729a"
   },
   {
     "path": "docs/guide/10-recipes-and-pitfalls.md",
-    "blob": "782394f891d0bcf7cdaafe2120f193261c641115"
+    "blob": "3f339a80a99eac2b618f8deb30c3edfa8919432c"
   },
   {
     "path": "docs/guide/README.md",
@@ -145,43 +145,31 @@
   },
   {
     "path": "docs/harness/claude-code.md",
-    "blob": "bf154e6464a6cca96a9627bbe10a628092e8c09e"
+    "blob": "2a59bc80edf61649b22e05cfd07a25bc7f997994"
   },
   {
     "path": "plugin.json",
-    "blob": "14b42b7225231a2f01ab225df1d9d13839c6d616"
+    "blob": "fce40ca89885495288a48db1531061f65a21d240"
   },
   {
     "path": "skills/architect/SKILL.md",
-    "blob": "88e23ca105b89e67f4085d0e676c40d4b170a623"
-  },
-  {
-    "path": "skills/architect/references/design-red-flags.md",
-    "blob": "f8503c9595b289c607ff5088f82b21197edf94ec"
-  },
-  {
-    "path": "skills/architect/references/rationale-template.md",
-    "blob": "a10f77f59510c532cd909faaf3bfeee5ffbfd588"
-  },
-  {
-    "path": "skills/architect/references/runner-prompt.md",
-    "blob": "b1ad21aef22e80d718c361787190b599eb359d6c"
+    "blob": "0c1a1338ff46497bf9086abab9dd9c44d244cd66"
   },
   {
     "path": "skills/arena/SKILL.md",
-    "blob": "7580c3c9a7770d81b9dd7a537d9caa7362c04279"
+    "blob": "e908a7c6221cdb06d381b4621e265745955d4b2d"
   },
   {
     "path": "skills/automate-me/SKILL.md",
-    "blob": "50971b894688b1e1923458996b89f2a9961feeb3"
+    "blob": "d22dd320f0638ea7adc90cee58a3a0fa6e07201f"
   },
   {
     "path": "skills/benchmark-checklist/SKILL.md",
-    "blob": "e901d1fdbc9ffce53e94d6514be7d9a22e771a1a"
+    "blob": "88546fa684c003625a13d61b975ced97b8fcb90e"
   },
   {
     "path": "skills/blast-radius/SKILL.md",
-    "blob": "b296cce0d746260a53c16e3671cb05bacfe82daf"
+    "blob": "1f5c95140597b8aa42fadf165e1aa0bca01639ff"
   },
   {
     "path": "skills/bro/SKILL.md",
@@ -213,19 +201,11 @@
   },
   {
     "path": "skills/figure-it-out/SKILL.md",
-    "blob": "0d04c2e69b75b22ff1a9a1d8ab339580a5fbbfed"
+    "blob": "625a53c4d8be54dcca071952859aeaa1e0ccff9c"
   },
   {
     "path": "skills/how/SKILL.md",
-    "blob": "67edc340d4d8a9c7ab0b9e08c663e0e63b8d9125"
-  },
-  {
-    "path": "skills/how/references/explainer-prompt.md",
-    "blob": "3a36fb6736c5b74ac2774350841e332a019dec94"
-  },
-  {
-    "path": "skills/how/references/explorer-prompt.md",
-    "blob": "724bacfc7df759865c0c29705bfee641e4c1aeca"
+    "blob": "dbddbecf2a911a5216c3a611f20bf95db809a938"
   },
   {
     "path": "skills/in-your-own-words/SKILL.md",
@@ -257,11 +237,11 @@
   },
   {
     "path": "skills/no-comments/SKILL.md",
-    "blob": "a07ce9dfc657bdf1b2bdf3f7619225e7faac091b"
+    "blob": "1789564454c627cb8d4ee8580822d7e368cef122"
   },
   {
     "path": "skills/poteto-help/SKILL.md",
-    "blob": "a0604c9c4e63c7f798f19f33acd8a74ccb5b8531"
+    "blob": "77f1bd585bb44b1e14cb1dfc333bdf48c0815809"
   },
   {
     "path": "skills/poteto-help/references/prompting.md",
@@ -273,7 +253,7 @@
   },
   {
     "path": "skills/poteto-mode/SKILL.md",
-    "blob": "2dd5e76fde228141d3fe78b0b09ca68456b49531"
+    "blob": "82a1941713eb18905b93f7c5b2004664f6722898"
   },
   {
     "path": "skills/poteto-mode/playbooks/authoring-a-skill.md",
@@ -281,51 +261,47 @@
   },
   {
     "path": "skills/poteto-mode/playbooks/autonomous-run.md",
-    "blob": "af3bf11609a24020f678f859f13a65710ab67fbd"
+    "blob": "853f9ecad2531610c4df1d8caf3621cb29240d6d"
   },
   {
     "path": "skills/poteto-mode/playbooks/autopilot-full.md",
-    "blob": "bbc5b3751ad789cfbd92f8937a2e84de365509ad"
+    "blob": "be91d5ac4108da00f1a9626d7af9892b2a2361eb"
   },
   {
     "path": "skills/poteto-mode/playbooks/autopilot-stack.md",
-    "blob": "819862c8fe7b756c8571eed410a30a09625673d9"
+    "blob": "2cca41205ce59089b2a61f9691e0f46c572a0e04"
   },
   {
     "path": "skills/poteto-mode/playbooks/babysit.md",
-    "blob": "14d5783d447ba3530d038c9dffa514f2492a54e0"
+    "blob": "0685ac21d6a88edbc77d53dd2e5576ea2e3e6f8a"
   },
   {
     "path": "skills/poteto-mode/playbooks/bug-fix.md",
-    "blob": "b5de0bfa63add6ed38a38a8bd668cf36ac009c61"
+    "blob": "0e9e734ed6e940a7ac512befb73f03bb7e6a150c"
   },
   {
     "path": "skills/poteto-mode/playbooks/eval.md",
-    "blob": "768a894e275b1e9b198e83ceb6b46964e3f9d6db"
+    "blob": "5e5762500dec34b63219c9002161215fb45ec438"
   },
   {
     "path": "skills/poteto-mode/playbooks/feature.md",
-    "blob": "eb1040cb2631f3eeacd8f9f6469d7e97277f24ef"
+    "blob": "27d76a56eb074ed1d8910b289b318d1aa0b80c0a"
   },
   {
     "path": "skills/poteto-mode/playbooks/hillclimb.md",
-    "blob": "e9cf267908a9737236b3a8a8a5a99fe9066f7554"
+    "blob": "dbcff8f923eab39976bb2e34b89b328d4385e825"
   },
   {
     "path": "skills/poteto-mode/playbooks/investigation.md",
-    "blob": "cd119f04f23e0b7acb3f8cc5ba13ce4ab7aa6c7d"
+    "blob": "854d56f69388e24d0d9262cb6b545e1484873ca1"
   },
   {
     "path": "skills/poteto-mode/playbooks/multi-phase-plan.md",
-    "blob": "7101aa71dbc08f2b84baa227a7bd589f800f13e8"
+    "blob": "8ddcfc7aec9ab5fc5962b1037d58880e09ca7307"
   },
   {
     "path": "skills/poteto-mode/playbooks/opening-a-pr.md",
-    "blob": "4a92c501f184ea24392d59a9889ce2f08e8e9201"
-  },
-  {
-    "path": "skills/poteto-mode/playbooks/orchestrate.md",
-    "blob": "b6e5f5661a1e6b4778845de53f331cee3486905b"
+    "blob": "e7367ed4cc37c48caafcc1b20d1a66146e22976c"
   },
   {
     "path": "skills/poteto-mode/playbooks/pause-safely.md",
@@ -333,7 +309,7 @@
   },
   {
     "path": "skills/poteto-mode/playbooks/perf-issue.md",
-    "blob": "46dcc9963366992016dfb1d59ccaae977930f982"
+    "blob": "f5264c29516b7c6b63369369f58e07c8db5c0773"
   },
   {
     "path": "skills/poteto-mode/playbooks/prototype.md",
@@ -341,23 +317,23 @@
   },
   {
     "path": "skills/poteto-mode/playbooks/refactoring.md",
-    "blob": "c04b07eeb8b8fa651d080729363466ab73d2fe40"
+    "blob": "d4db06bb057f7b8a7df68d90896d9078a0656938"
   },
   {
     "path": "skills/poteto-mode/playbooks/runtime-forensics.md",
-    "blob": "6bf64240d1a890df290b98c632ad374d20ca9fd4"
+    "blob": "8364ce4f1e7b0fd006f06c4bd0f70f68a902cdaf"
   },
   {
     "path": "skills/poteto-mode/playbooks/session-pickup.md",
-    "blob": "876b1433828ccc7c874123cdf300240abb285dd9"
+    "blob": "fcde2b226265e3597b9ca8681864aa7e0868e464"
   },
   {
     "path": "skills/poteto-mode/playbooks/shipping.md",
-    "blob": "0a0c3cfde8948e3aa8ee80c6f3f9ce7e3e64fcba"
+    "blob": "8f7e7b9ffbfce6eb81bd0a5eb363a086188d4223"
   },
   {
     "path": "skills/poteto-mode/playbooks/trace-forensics.md",
-    "blob": "bf1b003786503623d91ca173fc97a6e54eee3acf"
+    "blob": "2aec6f16451cc939348ac65fb90aaa77d431cefa"
   },
   {
     "path": "skills/poteto-mode/playbooks/visual-parity.md",
@@ -365,7 +341,7 @@
   },
   {
     "path": "skills/poteto-mode/playbooks/worktree-cleanup.md",
-    "blob": "45e1af693cc40d0271249a0e98f15bfc815af615"
+    "blob": "5ea9079b61ffc258aa713eb571eda7c2932bd81c"
   },
   {
     "path": "skills/poteto-mode/references/bugbot-triage.md",
@@ -380,16 +356,8 @@
     "blob": "65f0c662f300a0f72b319ca93ea18f56219c2581"
   },
   {
-    "path": "skills/poteto-mode/scripts/check-plan.mjs",
-    "blob": "c3ddc398997d29d3c97a414e5c2b37172b901254"
-  },
-  {
-    "path": "skills/poteto-mode/scripts/check-plan.test.ts",
-    "blob": "cd1debfa31579068dc41b8657b7de3b341be29a0"
-  },
-  {
     "path": "skills/poteto-mode/scripts/package.json",
-    "blob": "c8839d74d9be87dc78b3af0bc6f68f935b4ecc25"
+    "blob": "b79dbf4b5cc4b42de781d70899545de0e83da2c1"
   },
   {
     "path": "skills/poteto-mode/scripts/watch-pr/cli.test.ts",
@@ -444,16 +412,20 @@
     "blob": "47e08919d7b08c32923a7bdaaa70b17ca708f5f6"
   },
   {
+    "path": "skills/poteto-mode/worker.md",
+    "blob": "213fd63a4a03acf6ddb8a72429f6032b31f9b746"
+  },
+  {
     "path": "skills/principle-attack-the-premise/SKILL.md",
-    "blob": "e9a6d499606992edd9963b80f8f8f57feaccb221"
+    "blob": "5ee25b02e701ca3e304122248a412d2372ab097c"
   },
   {
     "path": "skills/principle-boundary-discipline/SKILL.md",
-    "blob": "dfe9a6fb0e5acd6ae43a41437ee0951adfe839cb"
+    "blob": "95b2209ce7d15ddbca7c2bf6ef3626ffdc8d595e"
   },
   {
     "path": "skills/principle-build-the-lever/SKILL.md",
-    "blob": "cbf003850489d95fea78e64198fd972c35b1aad3"
+    "blob": "8f9b5a931b10839ad5ef71ce43d5411c2c7a1f6b"
   },
   {
     "path": "skills/principle-encode-lessons-in-structure/SKILL.md",
@@ -469,15 +441,15 @@
   },
   {
     "path": "skills/principle-explain-the-number/SKILL.md",
-    "blob": "3948ad34092437918f366e2cbb270e9ae31977fb"
+    "blob": "7ff00fcf8805872cfb500308ed2bdf5fdd5d6b8b"
   },
   {
     "path": "skills/principle-fix-root-causes/SKILL.md",
-    "blob": "14fc189fa1ec3fb1614b0a3c75557f92943d8f13"
+    "blob": "b5e41168eb5944f583cf1d225e39552a48473dfe"
   },
   {
     "path": "skills/principle-foundational-thinking/SKILL.md",
-    "blob": "19cc6c0eaa6fcbc2863fb73d1d25ca196c6a46e0"
+    "blob": "4571b23e34a5037d44c152d966e37650450c9724"
   },
   {
     "path": "skills/principle-guard-the-context-window/SKILL.md",
@@ -489,7 +461,7 @@
   },
   {
     "path": "skills/principle-make-operations-idempotent/SKILL.md",
-    "blob": "c93f323d694a4d310515ea27165a093d399bc55e"
+    "blob": "7c61fe4b203bfae1de7db570af4c57fd0ba0a3d3"
   },
   {
     "path": "skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
@@ -497,11 +469,11 @@
   },
   {
     "path": "skills/principle-minimize-reader-load/SKILL.md",
-    "blob": "628999088c5d05c1c546b3a3ca89da553cd3f3b2"
+    "blob": "19dd4876d6e92c04caa2729d37ac87ac126d20ed"
   },
   {
     "path": "skills/principle-model-the-domain/SKILL.md",
-    "blob": "09b7c739955facf03f08f66e1e329745d2f8880e"
+    "blob": "88ba012f47bd51b2db0758c657610d56f871e1ba"
   },
   {
     "path": "skills/principle-never-block-on-the-human/SKILL.md",
@@ -513,7 +485,7 @@
   },
   {
     "path": "skills/principle-prove-it-works/SKILL.md",
-    "blob": "5dc14a3b06f9d579e5c17cd8a7242f432ddb3125"
+    "blob": "1c293b3c3ad0f7cb021858b17e7588d30a0a1acb"
   },
   {
     "path": "skills/principle-redesign-from-first-principles/SKILL.md",
@@ -521,11 +493,11 @@
   },
   {
     "path": "skills/principle-separate-before-serializing-shared-state/SKILL.md",
-    "blob": "ff93b4a2032c08e2232992a9a24f2891ee14e58f"
+    "blob": "6a4c3b876b694097a12003996588f557d2b55d0e"
   },
   {
     "path": "skills/principle-sequence-verifiable-units/SKILL.md",
-    "blob": "986371260ebccd9a5a6818c9561e88c1d270d0ee"
+    "blob": "3998185a29f287f6f30f0909c98ac4e2af5ddb97"
   },
   {
     "path": "skills/principle-subtract-before-you-add/SKILL.md",
@@ -533,47 +505,31 @@
   },
   {
     "path": "skills/principle-test-behavior-not-implementation/SKILL.md",
-    "blob": "78c9389bfe707d6d56485ade32c59150958228f9"
+    "blob": "094b9427aa64294afd64d83e9495a5ee303631e0"
   },
   {
     "path": "skills/principle-type-system-discipline/SKILL.md",
-    "blob": "9fa08b0b17d536ce751fffa90134be8fb03699c7"
+    "blob": "852aab0340246c0d0dfd59ea6be962ce40a31272"
   },
   {
     "path": "skills/recall/SKILL.md",
-    "blob": "cd8cc20790d90579e632626fe6db2b1fff593eea"
+    "blob": "a4ce69d2516715d7205867072d3e00d399fb3419"
   },
   {
     "path": "skills/reflect/SKILL.md",
-    "blob": "9bb153bd2121e49d73a7af7d55ef372079889e62"
-  },
-  {
-    "path": "skills/reflect/references/divergent-reviewer.md",
-    "blob": "1e070a2a3754f4dc0ddbaec4450a56179b81c92f"
-  },
-  {
-    "path": "skills/reflect/references/judgment-reviewer.md",
-    "blob": "61d15d76fff852eb573b551bc1317d79ed5a2e5f"
-  },
-  {
-    "path": "skills/reflect/references/synthesizer.md",
-    "blob": "1a090d86134987719ddb418023020c2ef58a6dae"
-  },
-  {
-    "path": "skills/reflect/references/tooling-reviewer.md",
-    "blob": "a839db4318798c51539c319cb90387ce02557225"
+    "blob": "e7bcc3aa18174a4103fdafdf947c8098cc0d8e16"
   },
   {
     "path": "skills/setup-pstack/SKILL.md",
-    "blob": "91f1127f8b14415fef9698b02a64d3d0bdef4f54"
+    "blob": "7358536071ed21b257da26adc1aec452c3d46466"
   },
   {
     "path": "skills/sharpen/SKILL.md",
-    "blob": "5b4a7b104e709f8cded1726541be42431c334164"
+    "blob": "2a03402b704012a626e9351b4db9c05cfd3afd20"
   },
   {
     "path": "skills/show-me-your-work/SKILL.md",
-    "blob": "ada1bba1e51356de0e0d4da1d13ba5a56ba9c7cb"
+    "blob": "bf64d5de06efce56152c4a6030a084213c69b228"
   },
   {
     "path": "skills/show-me-your-work/references/decision-log-template.tsv",
@@ -585,7 +541,7 @@
   },
   {
     "path": "skills/statechart/SKILL.md",
-    "blob": "f5a64a8db4b8a5957ac5e76e051b1823cecd4d5e"
+    "blob": "18d653a810dfbb3ea35a6ed88bcfe8cb84f0a893"
   },
   {
     "path": "skills/statechart/references/render.md",
@@ -597,7 +553,7 @@
   },
   {
     "path": "skills/statechart/scripts/backends/mermaid.ts",
-    "blob": "327220cad69baa1d4fa5aa1cfe03f3cf9e13c133"
+    "blob": "21ad39cb1efe72e4507df5c7599f32596612545f"
   },
   {
     "path": "skills/statechart/scripts/backends/plain-text.ts",
@@ -613,7 +569,7 @@
   },
   {
     "path": "skills/statechart/scripts/frontends/dot.ts",
-    "blob": "003dfc89d4925c6aed3e59073b6a9414da78117b"
+    "blob": "09d5481e70d9cf911dc16ddf655c91c197ff1fac"
   },
   {
     "path": "skills/statechart/scripts/frontends/marks.ts",
@@ -646,6 +602,14 @@
   {
     "path": "skills/statechart/scripts/ir.ts",
     "blob": "80fd403fe3c231b0986f239ba8c74a60b52c05f7"
+  },
+  {
+    "path": "skills/statechart/scripts/janitor.ts",
+    "blob": "5e69fb316c9e6bd4bc1de68781b43c345381188b"
+  },
+  {
+    "path": "skills/statechart/scripts/kill.ts",
+    "blob": "014d7c35049a8786359264cb4489c0c5e0a7ff1d"
   },
   {
     "path": "skills/statechart/scripts/package.json",
@@ -689,7 +653,7 @@
   },
   {
     "path": "skills/statechart/scripts/run.ts",
-    "blob": "4efd368e5bcd0b4ef7cf8d8cfd1e511483c720aa"
+    "blob": "45e13dcb4d4ee41d4437ed64e3177fe1a412ae56"
   },
   {
     "path": "skills/statechart/scripts/statechart",
@@ -697,7 +661,7 @@
   },
   {
     "path": "skills/statechart/scripts/statechart.ts",
-    "blob": "4e2967e680895875d7d5352bfe997a4c08c2d1fc"
+    "blob": "43ee983edfa7b1fa76ddab07e0e99cba897373b9"
   },
   {
     "path": "skills/statechart/scripts/test/ConfigOracle.java",
@@ -705,7 +669,7 @@
   },
   {
     "path": "skills/statechart/scripts/test/chart.test.ts",
-    "blob": "ef220432d79345fc5fa36210cef6c6ae7468fb4e"
+    "blob": "95ba9e86ba3f40fbe30b0a926f43bef082137af3"
   },
   {
     "path": "skills/statechart/scripts/test/charts/Braces.mmd",
@@ -721,7 +685,7 @@
   },
   {
     "path": "skills/statechart/scripts/test/cli.test.ts",
-    "blob": "97b71c30c228eafd55f599375f16be4f656f20e5"
+    "blob": "ee80722d6fdbb1e3c091c0c9f6f981636f61a264"
   },
   {
     "path": "skills/statechart/scripts/test/config-fuzz.test.ts",
@@ -729,7 +693,7 @@
   },
   {
     "path": "skills/statechart/scripts/test/corpus.test.ts",
-    "blob": "8934373187b213d9be5ef6011db1893cbb8b037f"
+    "blob": "90a4104e9b24d3f6144fae69a8ac42ea5251299b"
   },
   {
     "path": "skills/statechart/scripts/test/corpus/Counter/ChartRun.out",
@@ -1613,7 +1577,7 @@
   },
   {
     "path": "skills/statechart/scripts/test/corpus/Login/chart.mmd",
-    "blob": "9733b21cc2ad5f8c4c30ac74bb77b86a4426513f"
+    "blob": "547bd3e604b8f7ec7422a1c3006b4d70428f34e4"
   },
   {
     "path": "skills/statechart/scripts/test/corpus/Login/graph.dot",
@@ -2160,6 +2124,10 @@
     "blob": "c6aff9cadcc724202d7308a93fe2e17cc9aa64f4"
   },
   {
+    "path": "skills/statechart/scripts/test/drawn.ts",
+    "blob": "1290403c9f1a30f8832f8fbf2635482486ffb8f9"
+  },
+  {
     "path": "skills/statechart/scripts/test/grid/Grid.cfg",
     "blob": "d0ee570affdd4f5c4a26cff74d7fcace15898db1"
   },
@@ -2177,11 +2145,11 @@
   },
   {
     "path": "skills/statechart/scripts/test/labels.ts",
-    "blob": "a3d149984e53558e8b6a59dd994cdbd28487aa2e"
+    "blob": "82497246cf25f2f11892c1ecca2a7a33cf36ef75"
   },
   {
     "path": "skills/statechart/scripts/test/messages.test.ts",
-    "blob": "61af006968a6e9c2dc359c8b5859a1238b9e56cb"
+    "blob": "4e0d3c358809a2c3b17a171b3e4601f3f2790992"
   },
   {
     "path": "skills/statechart/scripts/test/pipeline.test.ts",
@@ -2193,7 +2161,7 @@
   },
   {
     "path": "skills/statechart/scripts/test/render.test.ts",
-    "blob": "5309a92648b950554381f5adecacac161bee3e28"
+    "blob": "57ff41e926875b65a455e0694c743a5c3562c4d5"
   },
   {
     "path": "skills/statechart/scripts/test/tlc-out.test.ts",
@@ -2213,7 +2181,7 @@
   },
   {
     "path": "skills/swarm/SKILL.md",
-    "blob": "9cd32247b4f381bb020cbbf0fc546ba71407d558"
+    "blob": "cf1deb77e2c7b83f9bda0551430ea166bf062977"
   },
   {
     "path": "skills/tdd/SKILL.md",
@@ -2221,11 +2189,11 @@
   },
   {
     "path": "skills/teach/SKILL.md",
-    "blob": "25369f3f554ed6b5826340ae3eee688fac0bda80"
+    "blob": "6146b65c4543af52c2693e844fc0ac4e4c010fae"
   },
   {
     "path": "skills/technical-writing/SKILL.md",
-    "blob": "3e6d26109376cd66439c87ed48b4033df8d78a3a"
+    "blob": "6f53776d935064370738bebe79f9fc8f39987ade"
   },
   {
     "path": "skills/typescript-best-practices/SKILL.md",
@@ -2237,58 +2205,10 @@
   },
   {
     "path": "skills/unslop/SKILL.md",
-    "blob": "97f5b6412148fa5b2a2fe478836fe8923ffa5cbb"
+    "blob": "583fe48499c8f8f71bd2deef4228d1f0129c03c7"
   },
   {
     "path": "skills/why/SKILL.md",
-    "blob": "b5fe93f8b78f58b06e0bf245a6b5b8faae4300e8"
-  },
-  {
-    "path": "skills/why/references/epistemics.md",
-    "blob": "b18abf41dfa245ee55e94f1b3a80c0b750eb10cf"
-  },
-  {
-    "path": "skills/why/references/investigator-prompt.md",
-    "blob": "e1c2bbf52197ff600ba6e4552439e630687b7ae2"
-  },
-  {
-    "path": "skills/why/references/source-playbook.md",
-    "blob": "aa3d877cd539763ff05e266ae0a02dd811441e2b"
-  },
-  {
-    "path": "skills/why/references/sources/code-archaeology.md",
-    "blob": "e3555f809da0a5654ceefe7d2c20080397c03506"
-  },
-  {
-    "path": "skills/why/references/sources/databricks.md",
-    "blob": "2770763ff5d0d1ad004abcc9a0138c9537ad1978"
-  },
-  {
-    "path": "skills/why/references/sources/datadog.md",
-    "blob": "536466ddd8ae6543836abb84bdf1efd8e43089ba"
-  },
-  {
-    "path": "skills/why/references/sources/incident-postmortem.md",
-    "blob": "e7397e7ef374bee3b7f0018ac8e5ddd4322bab12"
-  },
-  {
-    "path": "skills/why/references/sources/linear.md",
-    "blob": "899c643c078f322afe6ae0ef78a007f8ffd356c1"
-  },
-  {
-    "path": "skills/why/references/sources/notion.md",
-    "blob": "d16230a4105fd1dacf870da0950a38faeb9381e6"
-  },
-  {
-    "path": "skills/why/references/sources/sentry.md",
-    "blob": "8200fd9f3abbb7fca76d0079663502b33524bd09"
-  },
-  {
-    "path": "skills/why/references/sources/slack.md",
-    "blob": "cadd5618a349adc5eb1dce6fddde38e7221e00fd"
-  },
-  {
-    "path": "skills/why/references/synthesizer-prompt.md",
-    "blob": "287a350c925c28b44f0e0dc687bb09a843e11100"
+    "blob": "99397830ddc11c8d7118272a4a3b2e59c8803891"
   }
 ]
